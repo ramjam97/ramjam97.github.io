@@ -1,0 +1,211 @@
+{
+    "name": "Ramil Jamolod",
+    "roles": [
+        "Full Stack Developer"
+    ],
+    "about": "I’m a passionate full-stack developer specializing in building end-to-end web solutions using CodeIgniter, Laravel, Vue, React, Node.js, and many more. I love turning complex problems into simple, efficient, and user-friendly applications.",
+    "address": "Dipolog City, Zamboanga del Norte, Philippines",
+    "phone_numbers": [
+        "+639513042707"
+    ],
+    "emails": [
+        "ram.jamolod@gmail.com"
+    ],
+    "links": [
+        {
+            "icon": "pi pi-linkedin",
+            "name": "LinkedIn",
+            "url": "https://linkedin.com/in/ram-jamolod"
+        },
+        {
+            "icon": "pi pi-github",
+            "name": "GitHub",
+            "url": "https://github.com/ramjam97"
+        }
+    ],
+    "technical_skills": [
+        {
+            "title": "Programming & Scripting",
+            "skills": [
+                "HTML",
+                "CSS",
+                "JavaScript",
+                "TypeScript",
+                "PHP",
+                "Python",
+                "Java",
+                "C#",
+                "Perl"
+            ]
+        },
+        {
+            "title": "Frameworks & Libraries",
+            "skills": [
+                "Laravel",
+                "CodeIgniter",
+                "Vue.js",
+                "React.js",
+                "Node.js",
+                "jQuery",
+                "Bootstrap",
+                "Tailwind",
+                "SPFx"
+            ]
+        },
+        {
+            "title": "Web Hosting & Servers",
+            "skills": [
+                "Hostinger",
+                "Heroku",
+                "XAMPP",
+                "LAMP",
+                "WAMP"
+            ]
+        },
+        {
+            "title": "Databases",
+            "skills": [
+                "SQL",
+                "MySQL",
+                "MariaDB"
+            ]
+        },
+        {
+            "title": "DevOps & Automation",
+            "skills": [
+                "Git",
+                "CI/CD",
+                "Power Automate",
+                "Zapier"
+            ]
+        },
+        {
+            "title": "Other Tools & Platforms",
+            "skills": [
+                "Microsoft 365",
+                "SharePoint",
+                "Power Apps"
+            ]
+        }
+    ],
+    "experience": [
+        {
+            "company": "Octal Philippines, Inc.",
+            "position": "PHP Developer",
+            "start_date": "May 2022",
+            "end_date": "Present",
+            "address": "Tomas Morato Ave, Diliman, Quezon City, Metro Manila, Philippines",
+            "contributions": [
+                {
+                    "description": "Contributed to the Marketing Onboarding Engine, streamlining bulk email sending and optimization."
+                },
+                {
+                    "description": "Designed and implemented the Marketing Onboarding Enhancement (Engine & Web App) to handle dynamic status tracking and reporting."
+                },
+                {
+                    "description": "Built secure web components, including the Sky Cable Document Portal Webpart for subscriber attachment uploads and the Agents Module Web App."
+                },
+                {
+                    "description": "Developed and deployed the Skybiz Refund Webpart."
+                },
+                {
+                    "description": "Integrated VTiger with the SkyCRM System, improving data synchronization."
+                },
+                {
+                    "description": "Enhanced the Sky Cable Website (HBO section) and Sky Referral System."
+                },
+                {
+                    "description": "Improved internal processes with PowerApps and Power Automate, including:",
+                    "extra_info": [
+                        "Online Clearance Form Enhancement (expanded features and user coverage).",
+                        "Regional Online Clearance Form (added regional users, approvers, and officials)."
+                    ]
+                },
+                {
+                    "description": "Built the Customer Callout Initiative (SPFx) for the Sky Agents Module using React.js."
+                },
+                {
+                    "description": "Developed the Leads Portal Web App for Sky Cable."
+                },
+                {
+                    "description": "Migrated multiple ABS-CBN SharePoint sites (Asset Master Request, FMS Authorization, GL Master, IOCCPC, Journal Adjustment, Material Request, Purchase Request, Request for Payment, Service Request, Vendor Master Request)."
+                },
+                {
+                    "description": "Enhanced the SOA Monitoring Project by optimizing queries, fixing data tables, and adding a reprocess function for failed SOA sends."
+                },
+                {
+                    "description": "Contributed to the Migration Portal System, implementing user account creation, role management, and user reporting."
+                }
+            ]
+        },
+        {
+            "company": "Drainwiz",
+            "position": "Web Developer",
+            "start_date": "December 2020",
+            "end_date": "May 2022",
+            "address": "Echaves St, Dipolog City, Zamboanga del Norte, Philippines",
+            "contributions": [
+                {
+                    "description": "Designed and developed a Restaurant Management System to streamline ordering, inventory, and reporting processes."
+                },
+                {
+                    "description": "Managed and maintained Hostinger servers and multiple websites, performing regular backups, updates, and troubleshooting to ensure uptime and security."
+                },
+                {
+                    "description": "Provided technical support and training to staff and clients on system usage and best practices."
+                }
+            ]
+        },
+        {
+            "company": "GOLOG Malaysia",
+            "position": "Full Stack Developer",
+            "address": "Jalan Industri Mas 14, Taman Mas, 47100 Puchong, Selangor, Malaysia",
+            "start_date": "February 2020",
+            "end_date": "June 2020",
+            "contributions": [
+                {
+                    "description": "Developed a Twitter Autoposting Web App (Japan) for posting game mechanics and automatically calculating winners via retweets, implementing a custom algorithm with optimized data structures to handle large datasets efficiently."
+                },
+                {
+                    "description": "Contributed to the development of a Cinema Seat Booking Project."
+                },
+                {
+                    "description": "Built a Web Scraper for cinema movie listings to support the seat booking system."
+                },
+                {
+                    "description": "Assisted in staging and production deployments to ensure smooth rollouts."
+                }
+            ]
+        },
+        {
+            "company": "Department of Public Works and Highways",
+            "position": "Administrative Aide I",
+            "address": "Segabe, Piñan, Zamboanga del Norte, Philippines",
+            "start_date": "September 2018",
+            "end_date": "February 2020",
+            "contributions": [
+                {
+                    "description": "Provided administrative and clerical support to the department, ensuring accurate preparation and filing of official documents."
+                },
+                {
+                    "description": "Assisted in record management and data entry, maintaining up-to-date logs of projects and communications."
+                },
+                {
+                    "description": "Facilitated coordination between offices and field personnel, including scheduling and routing of correspondence."
+                },
+                {
+                    "description": " Supported the preparation of reports, requisitions, and other office documentation to meet deadlines and compliance requirements."
+                }
+            ]
+        }
+    ],
+    "education": [
+        {
+            "institution": "Mindanao State University",
+            "degree": "Bachelor of Science in Information Technology",
+            "start_date": "2014",
+            "end_date": "2018",
+            "address": "Naawan, 9023 Misamis Oriental, Philippines"
+        }
+    ]
+}

@@ -1,0 +1,7 @@
+@import "tailwindcss";
+@import 'primeicons/primeicons.css';
+@import '@/custom-themes.css';
+
+@plugin "daisyui" {
+  themes: all
+}
