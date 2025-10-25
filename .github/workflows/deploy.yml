@@ -12,8 +12,6 @@ permissions:
 jobs:
   build:
     runs-on: ubuntu-latest
-    env:
-      VITE_BASE: ${{ vars.VITE_BASE }}
     steps:
       - name: Notify Slack (Queued)
         if: ${{ github.event_name == 'workflow_dispatch' || github.event_name == 'push' }}
