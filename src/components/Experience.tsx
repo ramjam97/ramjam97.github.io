@@ -5,7 +5,7 @@ import Card from "@/components/Card";
 
 export const ID_EXPERIENCE = "experience";
 
-const Experience = () => {
+export default function Experience() {
 
     const { data, setMenuVisibility } = useContext(AppContext);
 
@@ -53,5 +53,3 @@ const Experience = () => {
         }
     </>
 }
-
-export default Experience

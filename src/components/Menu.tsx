@@ -2,7 +2,7 @@ import { useContext } from "react"
 import { AppContext } from "@/App"
 import type { MenuItemProps } from "@/hooks/useMenu";
 
-const Menu = () => {
+export default function Menu() {
 
     const { menu, showThemeController } = useContext(AppContext);
 
@@ -22,9 +22,6 @@ const Menu = () => {
         </>}
     </>
 }
-
-export default Menu;
-
 
 const MenuItem = ({ item }: { item: MenuItemProps }) => {
     const handleScrollToElement = () => {

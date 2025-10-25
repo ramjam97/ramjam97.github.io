@@ -4,7 +4,7 @@ interface CardProps {
     children?: React.ReactNode
 }
 
-const Card = ({ id, title, children }: CardProps) => {
+export default function Card({ id, title, children }: CardProps) {
     return <>
         <div className="card bg-base-100 shadow-lg w-full" id={id}>
             <div className="card-body p-3">
@@ -14,5 +14,3 @@ const Card = ({ id, title, children }: CardProps) => {
         </div>
     </>
 }
-
-export default Card

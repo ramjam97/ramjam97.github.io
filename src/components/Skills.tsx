@@ -4,7 +4,7 @@ import SkillSet from "@/components/SkillSet";
 import Card from "@/components/Card";
 
 export const ID_SKILLS = "skills";
-const Skills = () => {
+export default function Skills() {
 
     const { data, setMenuVisibility } = useContext(AppContext);
     const skills = data.technical_skills || [];
@@ -23,5 +23,3 @@ const Skills = () => {
         }
     </>
 }
-
-export default Skills

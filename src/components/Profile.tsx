@@ -6,7 +6,7 @@ import ProfileImg from '@/assets/profile.jpg';
 
 export const ID_PROFILE = "profile";
 
-const Profile = () => {
+export default function Profile() {
 
     const { data, showThemeController, setShowThemeController } = useContext(AppContext);
 
@@ -52,5 +52,3 @@ const Profile = () => {
         </Card>
     </>
 }
-
-export default Profile

@@ -3,7 +3,7 @@ interface SkillSetProps {
     skills: string[]
 }
 
-const SkillSet = ({ title, skills }: SkillSetProps) => {
+export default function SkillSet({ title, skills }: SkillSetProps) {
     return <>
         {skills.length > 0 && <>
             <span className="flex flex-col gap-1">
@@ -15,5 +15,3 @@ const SkillSet = ({ title, skills }: SkillSetProps) => {
         </>}
     </>
 }
-
-export default SkillSet

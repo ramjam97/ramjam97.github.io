@@ -9,7 +9,7 @@ import Footer from "@/components/Footer"
 import Menu from "@/components/Menu"
 import Education from "@/components/Education"
 
-const Layout = () => {
+export default function Layout() {
     return <>
         <ThemeDrawer />
         <Menu />
@@ -29,5 +29,3 @@ const Layout = () => {
         <Footer />
     </>
 }
-
-export default Layout

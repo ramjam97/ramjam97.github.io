@@ -4,7 +4,7 @@ import Card from '@/components/Card';
 
 export const ID_LINKS = "links";
 
-const Links = () => {
+export default function Links() {
 
     const { data, setMenuVisibility } = useContext(AppContext);
 
@@ -24,8 +24,6 @@ const Links = () => {
         }
     </>
 }
-
-export default Links;
 
 const ContactItem = ({ icon, url }: { icon: string, url: string }) => {
     return <>

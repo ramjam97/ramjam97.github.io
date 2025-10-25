@@ -3,7 +3,7 @@ import { AppContext } from "@/App";
 import { THEMES_COLLECTION } from "@/constant/themes";
 import ThemeItem from "@/components/ThemeItem";
 
-const ThemeDrawer = () => {
+export default function ThemeDrawer() {
 
     const { showThemeController, setShowThemeController } = useContext(AppContext);
 
@@ -35,5 +35,3 @@ const ThemeDrawer = () => {
         </div>
     </>
 }
-
-export default ThemeDrawer

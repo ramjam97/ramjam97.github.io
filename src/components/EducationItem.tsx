@@ -6,7 +6,7 @@ interface EducItemProps {
     item: EducationItemProps;
 }
 
-const EducationItem = ({ index, total, item }: EducItemProps) => {
+export default function EducationItem({ index, total, item }: EducItemProps) {
     const date = `${item.start_date} - ${item.end_date}`;
     return <>
         <div className={`border-secondary border-s pt-7 pb-3 ps-2 relative`}>
@@ -28,5 +28,3 @@ const EducationItem = ({ index, total, item }: EducItemProps) => {
         </div>
     </>
 }
-
-export default EducationItem

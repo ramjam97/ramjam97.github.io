@@ -1,6 +1,6 @@
 import packageJson from '@/../package.json';
 
-const Footer = () => {
+export default function Footer() {
     const year = new Date().getFullYear();
     const version = packageJson?.version ?? '1.0.0';
     return <>
@@ -8,6 +8,4 @@ const Footer = () => {
             © {year} by RamJam | Crafted with passion (v.{version})
         </div>
     </>;
-};
-
-export default Footer;
+}

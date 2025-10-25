@@ -4,8 +4,7 @@ import Card from '@/components/Card';
 
 export const ID_CONTACTS = "contacts";
 
-const Contact = () => {
-
+export default function Contact() {
     const { data, setMenuVisibility } = useContext(AppContext);
 
     const phone_numbers = data.phone_numbers || [];
@@ -21,22 +20,32 @@ const Contact = () => {
         {hasContent &&
             <Card title='📱 Contacts' id={ID_CONTACTS}>
                 <div className='flex flex-col gap-0 px-1'>
-                    {phone_numbers.map((number, index) => <ContactItem key={index} icon='pi pi-phone' text={number} />)}
-                    {emails.map((email, index) => <ContactItem key={index} icon='pi pi-envelope' text={email} />)}
+                    {phone_numbers.map((number, index) => <TelItem key={index} number={number} />)}
+                    {emails.map((email, index) => <EmailItem key={index} email={email} />)}
                 </div>
             </Card>
         }
     </>
 }
 
-export default Contact;
-
-
-const ContactItem = ({ icon, text }: { icon: string, text: string }) => {
+const TelItem = ({ number }: { number: string }) => {
     return <>
         <span className='flex flex-row items-center gap-2'>
-            <i className={icon}></i>
-            <span>{text}</span>
+            <a href={`tel:${number}`} className='flex items-center gap-2'>
+                <i className='pi pi-phone'></i>
+                <span>{number}</span>
+            </a>
+        </span>
+    </>
+}
+
+const EmailItem = ({ email }: { email: string }) => {
+    return <>
+        <span className='flex flex-row items-center gap-2'>
+            <a href={`mailto:${email}`} className='flex items-center gap-2'>
+                <i className='pi pi-envelope'></i>
+                <span>{email}</span>
+            </a>
         </span>
     </>
 }

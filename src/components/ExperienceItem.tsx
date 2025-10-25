@@ -8,7 +8,7 @@ interface ExperiencesItemProps {
     collapsedItems: number[]
     toogleCollapse: (index: number) => void;
 }
-const ExperienceItem = (props: ExperiencesItemProps) => {
+export default function ExperienceItem(props: ExperiencesItemProps) {
 
     const { index, total, item, collapsedItems, toogleCollapse } = props;
 
@@ -58,5 +58,3 @@ const ExperienceItem = (props: ExperiencesItemProps) => {
         </div>
     </>
 }
-
-export default ExperienceItem

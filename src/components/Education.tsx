@@ -4,7 +4,7 @@ import { AppContext } from "@/App";
 import EducationItem from "@/components/EducationItem";
 
 export const ID_EDUCATION = "education";
-const Education = () => {
+export default function Education() {
 
     const { data, setMenuVisibility } = useContext(AppContext);
 
@@ -29,4 +29,3 @@ const Education = () => {
         </>}
     </>
 }
-export default Education

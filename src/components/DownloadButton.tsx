@@ -2,7 +2,7 @@ import { useContext, useEffect, useState } from 'react';
 import cv from '@/assets/cv.pdf';
 import { AppContext } from '@/App';
 
-const DownloadButton = () => {
+export default function DownloadButton() {
 
     const { data } = useContext(AppContext);
 
@@ -36,5 +36,3 @@ const DownloadButton = () => {
         </button>
     </>
 }
-
-export default DownloadButton

@@ -13,7 +13,8 @@ export interface MenuItemProps {
     show: boolean;
 }
 
-const useMenu = (): [MenuItemProps[], (id: string, isShow: boolean) => void] => {
+
+export default function useMenu(): [MenuItemProps[], (id: string, isShow: boolean) => void] {
 
     const [menu, setMenu] = useState<MenuItemProps[]>([
         { id: ID_PROFILE, name: 'Profile', show: true },
@@ -31,5 +32,3 @@ const useMenu = (): [MenuItemProps[], (id: string, isShow: boolean) => void] => 
 
     return [menu, setMenuVisibility];
 }
-
-export default useMenu
