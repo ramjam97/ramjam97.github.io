@@ -31,7 +31,7 @@ export default function DownloadButton() {
     }, [showSuccessIcon]);
 
     return <>
-        <button className='btn btn-accent w-full' onClick={handleDownloadCv} disabled={isDownloading}>
+        <button className='btn btn-accent btn-sm' onClick={handleDownloadCv} disabled={isDownloading}>
             {showSuccessIcon ? <i className="pi pi-check-circle"></i> : <i className="pi pi-download"></i>} Download CV
         </button>
     </>

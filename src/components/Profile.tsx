@@ -3,6 +3,7 @@ import { AppContext } from '@/App'
 import Card from '@/components/Card';
 import DownloadButton from '@/components/DownloadButton';
 import ProfileImg from '@/assets/profile.jpg';
+import Badges from './Badges';
 
 export const ID_PROFILE = "profile";
 
@@ -39,12 +40,7 @@ export default function Profile() {
                     <i className='pi pi-map-marker'></i> {data.address}
                 </span>
 
-                <span className='flex flex-wrap flex-row gap-1 items-center'>
-                    <img alt="Status" src="https://img.shields.io/badge/status-available-success" />
-                    <a href="https://hits.sh/ramjam97.github.io/">
-                        <img alt="Hits" src="https://hits.sh/ramjam97.github.io.svg?label=views" />
-                    </a>
-                </span>
+                <Badges />
 
                 <DownloadButton />
 
