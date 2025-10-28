@@ -103,7 +103,7 @@
                     "description": "Designed and implemented the Marketing Onboarding Enhancement (Engine & Web App) to handle dynamic status tracking and reporting."
                 },
                 {
-                    "description": "Built secure web components, including the Sky Cable Document Portal Webpart for subscriber attachment uploads and the Agents Module Web App."
+                    "description": "Built secure web components, including the Sky Cable Document Portal Web App for subscriber attachment uploads and the Agents Module Webpart."
                 },
                 {
                     "description": "Developed and deployed the Skybiz Refund Webpart."
@@ -122,7 +122,7 @@
                     ]
                 },
                 {
-                    "description": "Built the Customer Callout Initiative (SPFx) for the Sky Agents Module using React.js."
+                    "description": "Built the Customer Callout Initiative for the Sky Agents Module using Sharepoint Framework and React.js."
                 },
                 {
                     "description": "Developed the Leads Portal Web App for Sky Cable."
