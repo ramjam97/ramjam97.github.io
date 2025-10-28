@@ -103,10 +103,10 @@
                     "description": "Designed and implemented the Marketing Onboarding Enhancement (Engine & Web App) to handle dynamic status tracking and reporting."
                 },
                 {
-                    "description": "Built secure web components, including the Sky Cable Document Portal Web App for subscriber attachment uploads and the Agents Module Webpart."
+                    "description": "Developed the Sky Cable Document Portal web app for subscriber attachment uploads and the Agents Module sharepoint web part (SPFx)."
                 },
                 {
-                    "description": "Developed and deployed the Skybiz Refund Webpart."
+                    "description": "Developed and deployed the Skybiz Refund sharepoint web part (SPFx) for processing refund requests."
                 },
                 {
                     "description": "Integrated VTiger with the SkyCRM System, improving data synchronization."
