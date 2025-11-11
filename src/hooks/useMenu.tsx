@@ -6,6 +6,7 @@ import { ID_LINKS } from '@/components/Links';
 import { ID_SKILLS } from '@/components/Skills';
 import { ID_PROFILE } from '@/components/Profile';
 import { ID_EDUCATION } from '@/components/Education';
+import { ID_BIO } from '@/components/Bio';
 
 export interface MenuItemProps {
     id: string;
@@ -13,11 +14,11 @@ export interface MenuItemProps {
     show: boolean;
 }
 
-
 export default function useMenu(): [MenuItemProps[], (id: string, isShow: boolean) => void] {
 
     const [menu, setMenu] = useState<MenuItemProps[]>([
         { id: ID_PROFILE, name: 'Profile', show: true },
+        { id: ID_BIO, name: 'Bio', show: true },
         { id: ID_ABOUT, name: 'About', show: true },
         { id: ID_CONTACTS, name: 'Contacts', show: true },
         { id: ID_LINKS, name: 'Connect With Me', show: true },

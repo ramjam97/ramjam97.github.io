@@ -1,0 +1,262 @@
+[
+    {
+        "id": 1,
+        "q": "The only way to do great work is to love what you do. If you haven't found it yet, keep looking. Don't settle. As with all matters of the heart, you never know what you find.",
+        "a": "Steve Jobs"
+    },
+    {
+        "id": 2,
+        "q": "Believe you can and you are halfway there.",
+        "a": "Theodore Roosevelt"
+    },
+    {
+        "id": 3,
+        "q": "The best way to predict your future is to create it.",
+        "a": "Abraham Lincoln"
+    },
+    {
+        "id": 4,
+        "q": "If opportunity doesn't knock, build a door.",
+        "a": "Milton Berle"
+    },
+    {
+        "id": 5,
+        "q": "The only limit to our realization of tomorrow will be our doubts of today.",
+        "a": "Franklin D. Roosevelt"
+    },
+    {
+        "id": 6,
+        "q": "You miss 100% of the shots you don't take.",
+        "a": "Wayne Gretzky"
+    },
+    {
+        "id": 7,
+        "q": "I have not failed. I've just found 10,000 ways that won't work.",
+        "a": "Thomas Edison"
+    },
+    {
+        "id": 8,
+        "q": "Success is not final, failure is not fatal: It is the courage to continue that counts.",
+        "a": "Winston Churchill"
+    },
+    {
+        "id": 9,
+        "q": "The biggest risk is not taking any risk.",
+        "a": "Mark Zuckerberg"
+    },
+    {
+        "id": 10,
+        "q": "Don't watch the clock; do what it does. Keep going.",
+        "a": "Sam Levenson"
+    },
+    {
+        "id": 11,
+        "q": "When you feel like quitting, remember why you started.",
+        "a": "Unknown"
+    },
+    {
+        "id": 12,
+        "q": "Do something today that your future self will thank you for.",
+        "a": "Unknown"
+    },
+    {
+        "id": 13,
+        "q": "The biggest adventure you can embark on is to live the life of your dreams.",
+        "a": "Oprah Winfrey"
+    },
+    {
+        "id": 14,
+        "q": "It is not in the stars to hold our destiny but in ourselves.",
+        "a": "William Shakespeare"
+    },
+    {
+        "id": 15,
+        "q": "Do not let what you cannot do interfere with what you can do.",
+        "a": "John Wooden"
+    },
+    {
+        "id": 16,
+        "q": "The only person you should try to be better than is the person you were yesterday.",
+        "a": "Matt Walsh"
+    },
+    {
+        "id": 17,
+        "q": "You are never too old to set another goal or to dream a new dream.",
+        "a": "C.S. Lewis"
+    },
+    {
+        "id": 18,
+        "q": "The biggest risk is not taking any risk.",
+        "a": "Mark Zuckerberg"
+    },
+    {
+        "id": 19,
+        "q": "Do not let what you cannot do interfere with what you can do.",
+        "a": "John Wooden"
+    },
+    {
+        "id": 20,
+        "q": "The only person you should try to be better than is the person you were yesterday.",
+        "a": "Matt Walsh"
+    },
+    {
+        "id": 21,
+        "q": "You are never too old to set another goal or to dream a new dream.",
+        "a": "C.S. Lewis"
+    },
+    {
+        "id": 22,
+        "q": "Don't watch the clock; do what it does. Keep going.",
+        "a": "Sam Levenson"
+    },
+    {
+        "id": 23,
+        "q": "When you feel like quitting, remember why you started.",
+        "a": "Unknown"
+    },
+    {
+        "id": 24,
+        "q": "Do something today that your future self will thank you for.",
+        "a": "Unknown"
+    },
+    {
+        "id": 25,
+        "q": "The biggest adventure you can embark on is to live the life of your dreams.",
+        "a": "Oprah Winfrey"
+    },
+    {
+        "id": 26,
+        "q": "It is not in the stars to hold our destiny but in ourselves.",
+        "a": "William Shakespeare"
+    },
+    {
+        "id": 27,
+        "q": "Do not let what you cannot do interfere with what you can do.",
+        "a": "John Wooden"
+    },
+    {
+        "id": 28,
+        "q": "The only person you should try to be better than is the person you were yesterday.",
+        "a": "Matt Walsh"
+    },
+    {
+        "id": 29,
+        "q": "You are never too old to set another goal or to dream a new dream.",
+        "a": "C.S. Lewis"
+    },
+    {
+        "id": 30,
+        "q": "The biggest risk is not taking any risk.",
+        "a": "Mark Zuckerberg"
+    },
+    {
+        "id": 31,
+        "q": "Do not let what you cannot do interfere with what you can do.",
+        "a": "John Wooden"
+    },
+    {
+        "id": 32,
+        "q": "The only person you should try to be better than is the person you were yesterday.",
+        "a": "Matt Walsh"
+    },
+    {
+        "id": 33,
+        "q": "You are never too old to set another goal or to dream a new dream.",
+        "a": "C.S. Lewis"
+    },
+    {
+        "id": 34,
+        "q": "Don't watch the clock; do what it does. Keep going.",
+        "a": "Sam Levenson"
+    },
+    {
+        "id": 35,
+        "q": "When you feel like quitting, remember why you started.",
+        "a": "Unknown"
+    },
+    {
+        "id": 36,
+        "q": "Do something today that your future self will thank you for.",
+        "a": "Unknown"
+    },
+    {
+        "id": 37,
+        "q": "The biggest adventure you can embark on is to live the life of your dreams.",
+        "a": "Oprah Winfrey"
+    },
+    {
+        "id": 38,
+        "q": "It is not in the stars to hold our destiny but in ourselves.",
+        "a": "William Shakespeare"
+    },
+    {
+        "id": 39,
+        "q": "Do not let what you cannot do interfere with what you can do.",
+        "a": "John Wooden"
+    },
+    {
+        "id": 40,
+        "q": "The only person you should try to be better than is the person you were yesterday.",
+        "a": "Matt Walsh"
+    },
+    {
+        "id": 41,
+        "q": "You are never too old to set another goal or to dream a new dream.",
+        "a": "C.S. Lewis"
+    },
+    {
+        "id": 42,
+        "q": "The biggest risk is not taking any risk.",
+        "a": "Mark Zuckerberg"
+    },
+    {
+        "id": 43,
+        "q": "Do not let what you cannot do interfere with what you can do.",
+        "a": "John Wooden"
+    },
+    {
+        "id": 44,
+        "q": "The only person you should try to be better than is the person you were yesterday.",
+        "a": "Matt Walsh"
+    },
+    {
+        "id": 45,
+        "q": "You are never too old to set another goal or to dream a new dream.",
+        "a": "C.S. Lewis"
+    },
+    {
+        "id": 46,
+        "q": "Don't watch the clock; do what it does. Keep going.",
+        "a": "Sam Levenson"
+    },
+    {
+        "id": 47,
+        "q": "When you feel like quitting, remember why you started.",
+        "a": "Unknown"
+    },
+    {
+        "id": 48,
+        "q": "Do something today that your future self will thank you for.",
+        "a": "Unknown"
+    },
+    {
+        "id": 49,
+        "q": "The biggest adventure you can embark on is to live the life of your dreams.",
+        "a": "Oprah Winfrey"
+    },
+    {
+        "id": 50,
+        "q": "It is not in the stars to hold our destiny but in ourselves.",
+        "a": "William Shakespeare"
+    },
+    {
+        "id": 51,
+        "q": "Do not let what you cannot do interfere with what you can do.",
+        "a": "John Wooden"
+    },
+    {
+        "id": 52,
+        "q": "The only person you should try to be better than is the person you were yesterday.",
+        "a": "Matt Walsh"
+    }
+]
