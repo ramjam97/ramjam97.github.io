@@ -1,11 +1,14 @@
 import { useContext, useEffect } from 'react'
 import { AppContext } from '@/App';
 import Card from '@/components/Card';
+import useQuote from '@/hooks/useQuote';
 
 export const ID_BIO = "bio";
 
 export default function Bio() {
-    const { quote, setMenuVisibility } = useContext(AppContext);
+
+    const { setMenuVisibility } = useContext(AppContext);
+    const { quote } = useQuote();
 
     useEffect(() => {
         setMenuVisibility(ID_BIO, quote !== null);
@@ -13,7 +16,7 @@ export default function Bio() {
 
     return <>
         {quote && <Card title='💬 Bio' id={ID_BIO}>
-            <em>"{quote.q}"</em>
+            <em>“{quote.q}”</em>
             <strong>-{quote.a}</strong>
         </Card>}
     </>

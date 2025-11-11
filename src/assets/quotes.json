@@ -41,222 +41,362 @@
     },
     {
         "id": 9,
-        "q": "The biggest risk is not taking any risk.",
-        "a": "Mark Zuckerberg"
+        "q": "When you feel like quitting, remember why you started.",
+        "a": "Unknown"
     },
     {
         "id": 10,
-        "q": "Don't watch the clock; do what it does. Keep going.",
-        "a": "Sam Levenson"
+        "q": "The only person you should try to be better than is the person you were yesterday.",
+        "a": "Matt Walsh"
     },
     {
         "id": 11,
-        "q": "When you feel like quitting, remember why you started.",
-        "a": "Unknown"
+        "q": "It is not in the stars to hold our destiny but in ourselves.",
+        "a": "William Shakespeare"
     },
     {
         "id": 12,
-        "q": "Do something today that your future self will thank you for.",
-        "a": "Unknown"
+        "q": "Don't watch the clock; do what it does. Keep going.",
+        "a": "Sam Levenson"
     },
     {
         "id": 13,
-        "q": "The biggest adventure you can embark on is to live the life of your dreams.",
-        "a": "Oprah Winfrey"
+        "q": "The biggest risk is not taking any risk.",
+        "a": "Mark Zuckerberg"
     },
     {
         "id": 14,
-        "q": "It is not in the stars to hold our destiny but in ourselves.",
-        "a": "William Shakespeare"
+        "q": "Do not let what you cannot do interfere with what you can do.",
+        "a": "John Wooden"
     },
     {
         "id": 15,
-        "q": "Do not let what you cannot do interfere with what you can do.",
-        "a": "John Wooden"
+        "q": "You are never too old to set another goal or to dream a new dream.",
+        "a": "C.S. Lewis"
     },
     {
         "id": 16,
-        "q": "The only person you should try to be better than is the person you were yesterday.",
-        "a": "Matt Walsh"
-    },
-    {
-        "id": 17,
-        "q": "You are never too old to set another goal or to dream a new dream.",
-        "a": "C.S. Lewis"
-    },
-    {
-        "id": 18,
-        "q": "The biggest risk is not taking any risk.",
-        "a": "Mark Zuckerberg"
-    },
-    {
-        "id": 19,
-        "q": "Do not let what you cannot do interfere with what you can do.",
-        "a": "John Wooden"
-    },
-    {
-        "id": 20,
-        "q": "The only person you should try to be better than is the person you were yesterday.",
-        "a": "Matt Walsh"
-    },
-    {
-        "id": 21,
-        "q": "You are never too old to set another goal or to dream a new dream.",
-        "a": "C.S. Lewis"
-    },
-    {
-        "id": 22,
-        "q": "Don't watch the clock; do what it does. Keep going.",
-        "a": "Sam Levenson"
-    },
-    {
-        "id": 23,
-        "q": "When you feel like quitting, remember why you started.",
-        "a": "Unknown"
-    },
-    {
-        "id": 24,
         "q": "Do something today that your future self will thank you for.",
         "a": "Unknown"
     },
     {
-        "id": 25,
+        "id": 17,
         "q": "The biggest adventure you can embark on is to live the life of your dreams.",
         "a": "Oprah Winfrey"
     },
     {
+        "id": 18,
+        "q": "Hardships often prepare ordinary people for an extraordinary destiny.",
+        "a": "C.S. Lewis"
+    },
+    {
+        "id": 19,
+        "q": "Don't be pushed around by the fears in your mind. Be led by the dreams in your heart.",
+        "a": "Roy T. Bennett"
+    },
+    {
+        "id": 20,
+        "q": "Start where you are. Use what you have. Do what you can.",
+        "a": "Arthur Ashe"
+    },
+    {
+        "id": 21,
+        "q": "Dream big and dare to fail.",
+        "a": "Norman Vaughan"
+    },
+    {
+        "id": 22,
+        "q": "Everything you’ve ever wanted is on the other side of fear.",
+        "a": "George Addair"
+    },
+    {
+        "id": 23,
+        "q": "What lies behind us and what lies before us are tiny matters compared to what lies within us.",
+        "a": "Ralph Waldo Emerson"
+    },
+    {
+        "id": 24,
+        "q": "Act as if what you do makes a difference. It does.",
+        "a": "William James"
+    },
+    {
+        "id": 25,
+        "q": "Don’t wait for opportunity. Create it.",
+        "a": "George Bernard Shaw"
+    },
+    {
         "id": 26,
-        "q": "It is not in the stars to hold our destiny but in ourselves.",
-        "a": "William Shakespeare"
-    },
-    {
-        "id": 27,
-        "q": "Do not let what you cannot do interfere with what you can do.",
-        "a": "John Wooden"
-    },
-    {
-        "id": 28,
-        "q": "The only person you should try to be better than is the person you were yesterday.",
-        "a": "Matt Walsh"
-    },
-    {
-        "id": 29,
-        "q": "You are never too old to set another goal or to dream a new dream.",
-        "a": "C.S. Lewis"
-    },
-    {
-        "id": 30,
-        "q": "The biggest risk is not taking any risk.",
-        "a": "Mark Zuckerberg"
-    },
-    {
-        "id": 31,
-        "q": "Do not let what you cannot do interfere with what you can do.",
-        "a": "John Wooden"
-    },
-    {
-        "id": 32,
-        "q": "The only person you should try to be better than is the person you were yesterday.",
-        "a": "Matt Walsh"
-    },
-    {
-        "id": 33,
-        "q": "You are never too old to set another goal or to dream a new dream.",
-        "a": "C.S. Lewis"
-    },
-    {
-        "id": 34,
-        "q": "Don't watch the clock; do what it does. Keep going.",
-        "a": "Sam Levenson"
-    },
-    {
-        "id": 35,
-        "q": "When you feel like quitting, remember why you started.",
+        "q": "Success doesn’t just find you. You have to go out and get it.",
         "a": "Unknown"
     },
     {
+        "id": 27,
+        "q": "Great things never come from comfort zones.",
+        "a": "Unknown"
+    },
+    {
+        "id": 28,
+        "q": "Push yourself, because no one else is going to do it for you.",
+        "a": "Unknown"
+    },
+    {
+        "id": 29,
+        "q": "Don’t stop when you’re tired. Stop when you’re done.",
+        "a": "Unknown"
+    },
+    {
+        "id": 30,
+        "q": "Wake up with determination. Go to bed with satisfaction.",
+        "a": "Unknown"
+    },
+    {
+        "id": 31,
+        "q": "Discipline is the bridge between goals and accomplishment.",
+        "a": "Jim Rohn"
+    },
+    {
+        "id": 32,
+        "q": "Doubt kills more dreams than failure ever will.",
+        "a": "Suzy Kassem"
+    },
+    {
+        "id": 33,
+        "q": "It always seems impossible until it’s done.",
+        "a": "Nelson Mandela"
+    },
+    {
+        "id": 34,
+        "q": "Success is not how high you have climbed, but how you make a positive difference to the world.",
+        "a": "Roy T. Bennett"
+    },
+    {
+        "id": 35,
+        "q": "Your life does not get better by chance, it gets better by change.",
+        "a": "Jim Rohn"
+    },
+    {
         "id": 36,
-        "q": "Do something today that your future self will thank you for.",
+        "q": "Your mind is a powerful thing. When you fill it with positive thoughts, your life will start to change.",
         "a": "Unknown"
     },
     {
         "id": 37,
-        "q": "The biggest adventure you can embark on is to live the life of your dreams.",
-        "a": "Oprah Winfrey"
+        "q": "Happiness is not something ready made. It comes from your own actions.",
+        "a": "Dalai Lama"
     },
     {
         "id": 38,
-        "q": "It is not in the stars to hold our destiny but in ourselves.",
-        "a": "William Shakespeare"
+        "q": "What you think, you become. What you feel, you attract. What you imagine, you create.",
+        "a": "Buddha"
     },
     {
         "id": 39,
-        "q": "Do not let what you cannot do interfere with what you can do.",
-        "a": "John Wooden"
+        "q": "Be yourself; everyone else is already taken.",
+        "a": "Oscar Wilde"
     },
     {
         "id": 40,
-        "q": "The only person you should try to be better than is the person you were yesterday.",
-        "a": "Matt Walsh"
+        "q": "You have within you right now, everything you need to deal with whatever the world can throw at you.",
+        "a": "Brian Tracy"
     },
     {
         "id": 41,
-        "q": "You are never too old to set another goal or to dream a new dream.",
-        "a": "C.S. Lewis"
+        "q": "You don’t have to be perfect to be amazing.",
+        "a": "Unknown"
     },
     {
         "id": 42,
-        "q": "The biggest risk is not taking any risk.",
-        "a": "Mark Zuckerberg"
+        "q": "Keep your face always toward the sunshine—and shadows will fall behind you.",
+        "a": "Walt Whitman"
     },
     {
         "id": 43,
-        "q": "Do not let what you cannot do interfere with what you can do.",
-        "a": "John Wooden"
+        "q": "You are stronger than you think, braver than you believe, and smarter than you know.",
+        "a": "A.A. Milne"
     },
     {
         "id": 44,
-        "q": "The only person you should try to be better than is the person you were yesterday.",
-        "a": "Matt Walsh"
+        "q": "Fall seven times, stand up eight.",
+        "a": "Japanese Proverb"
     },
     {
         "id": 45,
-        "q": "You are never too old to set another goal or to dream a new dream.",
-        "a": "C.S. Lewis"
+        "q": "The harder the struggle, the more glorious the triumph.",
+        "a": "Swami Sivananda"
     },
     {
         "id": 46,
-        "q": "Don't watch the clock; do what it does. Keep going.",
-        "a": "Sam Levenson"
+        "q": "Strength doesn’t come from what you can do. It comes from overcoming the things you once thought you couldn’t.",
+        "a": "Rikki Rogers"
     },
     {
         "id": 47,
-        "q": "When you feel like quitting, remember why you started.",
-        "a": "Unknown"
+        "q": "A smooth sea never made a skilled sailor.",
+        "a": "Franklin D. Roosevelt"
     },
     {
         "id": 48,
-        "q": "Do something today that your future self will thank you for.",
-        "a": "Unknown"
+        "q": "Don’t let the behavior of others destroy your inner peace.",
+        "a": "Dalai Lama"
     },
     {
         "id": 49,
-        "q": "The biggest adventure you can embark on is to live the life of your dreams.",
-        "a": "Oprah Winfrey"
+        "q": "When everything seems to be going against you, remember that the airplane takes off against the wind, not with it.",
+        "a": "Henry Ford"
     },
     {
         "id": 50,
-        "q": "It is not in the stars to hold our destiny but in ourselves.",
-        "a": "William Shakespeare"
+        "q": "The comeback is always stronger than the setback.",
+        "a": "Unknown"
     },
     {
         "id": 51,
-        "q": "Do not let what you cannot do interfere with what you can do.",
-        "a": "John Wooden"
+        "q": "You don’t find your worth in a man. You find your worth within yourself and then find a man who’s worthy of you.",
+        "a": "Unknown"
     },
     {
         "id": 52,
-        "q": "The only person you should try to be better than is the person you were yesterday.",
-        "a": "Matt Walsh"
+        "q": "Leadership is not about being in charge. It is about taking care of those in your charge.",
+        "a": "Simon Sinek"
+    },
+    {
+        "id": 53,
+        "q": "A leader is one who knows the way, goes the way, and shows the way.",
+        "a": "John C. Maxwell"
+    },
+    {
+        "id": 54,
+        "q": "Great leaders inspire others to lead, not just to follow.",
+        "a": "Unknown"
+    },
+    {
+        "id": 55,
+        "q": "Alone we can do so little; together we can do so much.",
+        "a": "Helen Keller"
+    },
+    {
+        "id": 56,
+        "q": "True leadership stems from individuality that is honestly and sometimes imperfectly expressed.",
+        "a": "Sheryl Sandberg"
+    },
+    {
+        "id": 57,
+        "q": "Stay positive. Work hard. Make it happen.",
+        "a": "Unknown"
+    },
+    {
+        "id": 58,
+        "q": "Every day may not be good, but there is something good in every day.",
+        "a": "Alice Morse Earle"
+    },
+    {
+        "id": 59,
+        "q": "Self-love is not selfish; you cannot truly love another until you know how to love yourself.",
+        "a": "Unknown"
+    },
+    {
+        "id": 60,
+        "q": "You are enough just as you are.",
+        "a": "Meghan Markle"
+    },
+    {
+        "id": 61,
+        "q": "Code is like humor. When you have to explain it, it’s bad.",
+        "a": "Cory House"
+    },
+    {
+        "id": 62,
+        "q": "It works on my machine.",
+        "a": "Every Developer Ever"
+    },
+    {
+        "id": 63,
+        "q": "There are only two hard things in Computer Science: cache invalidation, naming things, and off-by-one errors.",
+        "a": "Phil Karlton"
+    },
+    {
+        "id": 64,
+        "q": "A user interface is like a joke. If you have to explain it, it’s not that good.",
+        "a": "Martin LeBlanc"
+    },
+    {
+        "id": 65,
+        "q": "Programming is 10% writing code and 90% figuring out why it doesn’t work.",
+        "a": "Unknown"
+    },
+    {
+        "id": 66,
+        "q": "There’s no place like 127.0.0.1.",
+        "a": "Unknown"
+    },
+    {
+        "id": 67,
+        "q": "To err is human. To blame it on a computer is even more human.",
+        "a": "Robert Orben"
+    },
+    {
+        "id": 68,
+        "q": "I would love to change the world, but they won’t give me the source code.",
+        "a": "Unknown"
+    },
+    {
+        "id": 69,
+        "q": "Software and cathedrals are much the same – first we build them, then we pray.",
+        "a": "Sam Redwine"
+    },
+    {
+        "id": 70,
+        "q": "If debugging is the process of removing software bugs, then programming must be the process of putting them in.",
+        "a": "Edsger Dijkstra"
+    },
+    {
+        "id": 71,
+        "q": "There are 10 kinds of people in the world: those who understand binary and those who don’t.",
+        "a": "Unknown"
+    },
+    {
+        "id": 72,
+        "q": "I don’t always test my code, but when I do, I do it in production.",
+        "a": "Unknown"
+    },
+    {
+        "id": 73,
+        "q": "First, solve the problem. Then, write the code.",
+        "a": "John Johnson"
+    },
+    {
+        "id": 74,
+        "q": "Talk is cheap. Show me the code.",
+        "a": "Linus Torvalds"
+    },
+    {
+        "id": 75,
+        "q": "Real programmers count from zero.",
+        "a": "Unknown"
+    },
+    {
+        "id": 76,
+        "q": "A good programmer looks both ways before crossing a one-way street.",
+        "a": "Doug Linder"
+    },
+    {
+        "id": 77,
+        "q": "In order to understand recursion, you must first understand recursion.",
+        "a": "Unknown"
+    },
+    {
+        "id": 78,
+        "q": "Computers are fast; programmers keep them slow.",
+        "a": "Unknown"
+    },
+    {
+        "id": 79,
+        "q": "The best thing about a Boolean is even if you are wrong, you are only off by a bit.",
+        "a": "Anonymous"
+    },
+    {
+        "id": 80,
+        "q": "To understand what recursion is, you must first understand what recursion is.",
+        "a": "Unknown"
     }
 ]

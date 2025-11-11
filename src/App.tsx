@@ -4,7 +4,6 @@ import type { DetailsProps } from '@/types/cv';
 import { DEFAULT_THEME, THEME_SESSION_NAME } from '@/constant/themes';
 import useMenu, { type MenuItemProps } from '@/hooks/useMenu';
 import Layout from '@/components/Layout';
-import useQuote, { type QuoteType } from '@/hooks/useQuote';
 
 interface AppContextProps {
   data: DetailsProps | undefined | null;
@@ -14,7 +13,6 @@ interface AppContextProps {
   setTheme: React.Dispatch<React.SetStateAction<string>>;
   menu: MenuItemProps[];
   setMenuVisibility: (id: string, isShow: boolean) => void;
-  quote: QuoteType;
 }
 
 export const AppContext = createContext<AppContextProps>(null);
@@ -27,8 +25,6 @@ function App() {
   const [theme, setTheme] = useState(localStorage.getItem(THEME_SESSION_NAME) || DEFAULT_THEME);
   const [menu, setMenuVisibility] = useMenu();
 
-  const { quote } = useQuote();
-
   useEffect(() => {
     document.documentElement.setAttribute('data-theme', theme);
     localStorage.setItem(THEME_SESSION_NAME, theme);
@@ -39,7 +35,6 @@ function App() {
     showThemeController, setShowThemeController,
     theme, setTheme,
     menu, setMenuVisibility,
-    quote
   }
 
   return <>
