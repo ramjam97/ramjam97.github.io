@@ -12,7 +12,7 @@ export default function useQuote() {
 
     const getRandomQuote = () => {
         const randomQuote = quotesList[Math.floor(Math.random() * quotesList.length)];
-        setQuote(randomQuote as QuoteType);
+        setQuote(randomQuote);
     };
 
     useEffect(() => {
