@@ -17,7 +17,7 @@ export default function Bio() {
     return <>
         {quote && <Card title='💬 Bio' id={ID_BIO}>
             <em>“{quote.q}”</em>
-            <strong>-{quote.a}</strong>
+            <span className='font-semibold'>-{quote.a}</span>
         </Card>}
     </>
 }

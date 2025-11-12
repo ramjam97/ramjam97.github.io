@@ -6,12 +6,11 @@ import ThemeItem from "@/components/ThemeItem";
 export default function ThemeDrawer() {
 
     const { showThemeController, setShowThemeController } = useContext(AppContext);
-
+    
     const cb = useRef<HTMLInputElement>(null);
-
-    const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => setShowThemeController(e.target.checked);
-
     const sortedThemes = THEMES_COLLECTION.sort((a, b) => a.localeCompare(b));
+    
+    const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => setShowThemeController(e.target.checked);
 
     useEffect(() => {
         if (cb.current) cb.current.checked = showThemeController;

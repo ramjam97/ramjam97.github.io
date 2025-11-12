@@ -3,5 +3,5 @@
 @import '@/custom-themes.css';
 
 @plugin "daisyui" {
-  themes: all
+  themes: all;
 }

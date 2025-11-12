@@ -12,7 +12,6 @@ export default function useTheme(): [string, React.Dispatch<React.SetStateAction
     return [theme, setTheme]
 }
 
-
 export function setDOMTheme(theme: string) {
     document.documentElement.setAttribute('data-theme', theme);
     localStorage.setItem(THEME_SESSION_NAME, theme);

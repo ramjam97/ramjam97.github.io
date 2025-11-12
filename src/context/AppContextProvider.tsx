@@ -23,7 +23,6 @@ export default function AppContextProvider({ children }: { children: React.React
 
     const [showThemeController, setShowThemeController] = useState(false);
     const [theme, setTheme] = useTheme();
-
     const [menu, setMenuVisibility] = useMenu();
 
     return <AppContext.Provider value={{
