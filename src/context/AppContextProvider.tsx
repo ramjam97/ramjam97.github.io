@@ -1,9 +1,9 @@
+import { createContext, useState } from "react";
 import Data from '@/assets/data.json';
-import { DEFAULT_THEME, THEME_SESSION_NAME } from "@/constant/themes";
 import type { MenuItemProps } from "@/hooks/useMenu";
 import useMenu from "@/hooks/useMenu";
+import useTheme from '@/hooks/useTheme';
 import type { DetailsProps } from "@/types/cv";
-import { createContext, useEffect, useState } from "react";
 
 interface AppContextProps {
     data: DetailsProps | undefined | null;
@@ -22,13 +22,9 @@ export default function AppContextProvider({ children }: { children: React.React
     const data: DetailsProps = Data;
 
     const [showThemeController, setShowThemeController] = useState(false);
-    const [theme, setTheme] = useState(localStorage.getItem(THEME_SESSION_NAME) || DEFAULT_THEME);
-    const [menu, setMenuVisibility] = useMenu();
+    const [theme, setTheme] = useTheme();
 
-    useEffect(() => {
-        document.documentElement.setAttribute('data-theme', theme);
-        localStorage.setItem(THEME_SESSION_NAME, theme);
-    }, [theme]);
+    const [menu, setMenuVisibility] = useMenu();
 
     return <AppContext.Provider value={{
         data,
