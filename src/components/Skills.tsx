@@ -1,5 +1,5 @@
 import { useContext, useEffect } from "react";
-import { AppContext } from "@/App";
+import { AppContext } from "@/context/AppContextProvider";
 import SkillSet from "@/components/SkillSet";
 import Card from "@/components/Card";
 
@@ -14,12 +14,12 @@ export default function Skills() {
     }, []);
 
     return <>
-        {skills.length > 0 &&
+        {skills.length > 0 && <>
             <Card title='👨‍💻 Skills' id={ID_SKILLS}>
                 <div className="grid sm:grid-cols-2 md:grid-cols-2 gap-3">
                     {skills.map((skill, index) => <SkillSet key={index} title={skill.title} skills={skill.skills} />)}
                 </div>
             </Card>
-        }
+        </>}
     </>
 }

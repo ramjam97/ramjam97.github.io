@@ -1,5 +1,5 @@
 import { useContext, useEffect, useRef } from "react";
-import { AppContext } from "@/App";
+import { AppContext } from "@/context/AppContextProvider";
 import { THEMES_COLLECTION } from "@/constant/themes";
 import ThemeItem from "@/components/ThemeItem";
 

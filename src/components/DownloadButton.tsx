@@ -1,6 +1,6 @@
 import { useContext, useEffect, useState } from 'react';
+import { AppContext } from '@/context/AppContextProvider';
 import cv from '@/assets/cv.pdf';
-import { AppContext } from '@/App';
 
 export default function DownloadButton() {
 

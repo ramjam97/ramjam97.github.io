@@ -1,5 +1,5 @@
 import { useContext, useEffect, useState } from "react";
-import { AppContext } from "@/App";
+import { AppContext } from "@/context/AppContextProvider";
 import ExperienceItem from "@/components/ExperienceItem";
 import Card from "@/components/Card";
 

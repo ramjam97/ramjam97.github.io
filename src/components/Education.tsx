@@ -1,6 +1,6 @@
 import { useContext, useEffect } from "react";
+import { AppContext } from "@/context/AppContextProvider";
 import Card from "@/components/Card";
-import { AppContext } from "@/App";
 import EducationItem from "@/components/EducationItem";
 
 export const ID_EDUCATION = "education";

@@ -1,5 +1,5 @@
 import { useContext, useEffect, useMemo } from 'react';
-import { AppContext } from '@/App';
+import { AppContext } from '@/context/AppContextProvider';
 import Card from '@/components/Card';
 
 export const ID_CONTACTS = "contacts";

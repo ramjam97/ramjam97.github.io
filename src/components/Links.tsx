@@ -1,5 +1,5 @@
 import { useContext, useEffect } from 'react';
-import { AppContext } from '@/App';
+import { AppContext } from '@/context/AppContextProvider';
 import Card from '@/components/Card';
 
 export const ID_LINKS = "links";

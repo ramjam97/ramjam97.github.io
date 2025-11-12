@@ -1,5 +1,5 @@
 import { useContext } from 'react'
-import { AppContext } from '@/App'
+import { AppContext } from '@/context/AppContextProvider';
 import Card from '@/components/Card';
 import DownloadButton from '@/components/DownloadButton';
 import ProfileImg from '@/assets/profile.jpg';
@@ -41,7 +41,6 @@ export default function Profile() {
                 </span>
 
                 <Badges />
-
                 <DownloadButton />
 
             </div>
