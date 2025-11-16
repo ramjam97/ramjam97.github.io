@@ -24,8 +24,8 @@ export default function Profile() {
 
                 <span className='px-3 py-2 flex items-center justify-center'>
                     <div className='avatar'>
-                        <div className='w-50 ring ring-1 ring-primary ring-offset-base-100 ring-offset-3 skeleton rounded-full text-transparent'>
-                            <img src={ProfileImg} className='' alt={data.name} />
+                        <div className='w-50 rounded-full ring ring-primary ring-offset-base-100 ring-offset-3 bg-base-300 overflow-hidden'>
+                            <img src={ProfileImg} alt={data.name} />
                         </div>
                     </div>
                 </span>
