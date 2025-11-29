@@ -21,6 +21,11 @@
             "icon": "pi pi-github",
             "name": "GitHub",
             "url": "https://github.com/ramjam97"
+        },
+        {
+            "icon": "pi pi-globe",
+            "name": "Gravatar",
+            "url": "https://gravatar.com/ramjamolod"
         }
     ],
     "technical_skills": [
