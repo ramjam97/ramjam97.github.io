@@ -1,7 +1,7 @@
 import { array_shuffle } from "@/utils/universal";
 
 export const THEME_SESSION_NAME = "portfolio-theme";
-export const DEFAULT_THEME = array_shuffle(['aggressive', 'bored'])[0];
+export const DEFAULT_THEME = array_shuffle(['aggressive', 'bored', 'simple'])[0];
 export const THEMES_COLLECTION = [
     "abyss",
     "acid",
