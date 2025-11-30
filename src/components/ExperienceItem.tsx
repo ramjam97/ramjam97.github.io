@@ -38,7 +38,7 @@ export default function ExperienceItem(props: ExperiencesItemProps) {
 
             <details className="collapse" open={isOpen}>
                 <summary className="collapse-title p-2" onClick={handleCollapse}>
-                    <div className="font-bold">{item.position}</div>
+                    <div className="font-bold link-hover">{item.position}</div>
                     <div className="font-semibold">{item.company}</div>
                     <div className="text-sm text-base-content/70">{item.address}</div>
                 </summary>

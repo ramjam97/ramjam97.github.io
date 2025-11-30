@@ -11,7 +11,7 @@ export default function Experience() {
 
     const experience = data.experience || [];
 
-    const [collapsedItems, setCollapsedItems] = useState<number[]>([]);
+    const [collapsedItems, setCollapsedItems] = useState<number[]>(experience.map((_, index) => index));
 
     const toogleCollapse = (index: number) => {
         setCollapsedItems(list => list.includes(index)
@@ -32,7 +32,7 @@ export default function Experience() {
         {experience.length > 0 &&
             <Card id={ID_EXPERIENCE}>
                 <div className="flex justify-between items-center">
-                    <h2 className="card-title text-primary text-xl">🚀 Experience</h2>
+                    <h2 className="card-title text-primary text-xl">🚀 Experiences</h2>
                     <label className="btn btn-circle btn-ghost swap swap-rotate">
                         <input type="checkbox" checked={isAllCollapsed} onChange={() => toogleCollapseAll()} />
                         <i className="swap-on pi pi-angle-right"></i>
