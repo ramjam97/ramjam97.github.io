@@ -29,7 +29,7 @@ const ContactItem = ({ icon, url }: { icon: string, url: string }) => {
     return <>
         <span className='flex flex-row items-center gap-2'>
             <i className={icon}></i>
-            <a href={url} target='_blank' className='link link-hover'>{url}</a>
+            <a href={url} target='_blank' className='link link-hover break-all'>{url}</a>
         </span>
     </>
 }
