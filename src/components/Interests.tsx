@@ -18,7 +18,7 @@ export default function Interests() {
         {interests.length > 0 &&
             <Card title='🎨 Interests' id={ID_INTERESTS}>
                 <div className='flex flex-wrap gap-1 mb-1'>
-                    {interests.map((item, index) => <span className="badge badge-success" key={index}>{item}</span>)}
+                    {interests.map((item, index) => <span className="badge badge-neutral" key={index}>{item}</span>)}
                 </div>
             </Card>
         }
