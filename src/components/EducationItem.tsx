@@ -26,7 +26,7 @@ export default function EducationItem({ index, total, item }: EducItemProps) {
             </span>
 
             <div className="p-2">
-                <div className="font-bold">{item.degree}</div>
+                <a href={item.url} target="_blank" className="font-bold link-hover">{item.degree}</a>
                 <div className="font-semibold">{item.institution}</div>
                 <div className="text-sm text-base-content/70">{item.address}</div>
             </div>
