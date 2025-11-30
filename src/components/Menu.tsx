@@ -28,5 +28,5 @@ const MenuItem = ({ item }: { item: MenuItemProps }) => {
         const element = document.getElementById(item.id);
         if (element) element.scrollIntoView({ behavior: 'smooth', block: 'start' });
     };
-    return <button key={item.id} className="btn btn-lg shadow-lg w-full" onClick={handleScrollToElement}>{item.name}</button>
+    return <button key={item.id} className="btn btn-md shadow-md w-full" onClick={handleScrollToElement}>{item.name}</button>
 }

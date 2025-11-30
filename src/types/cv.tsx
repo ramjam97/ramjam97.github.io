@@ -47,6 +47,7 @@ export type DetailsProps = {
     name: string;
     roles: string[];
     about: string;
+    interests: string[];
     certificates: CertificateItemProps[];
     address: string;
     phone_numbers: string[];

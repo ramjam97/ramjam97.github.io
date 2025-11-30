@@ -1,6 +1,7 @@
 import About from "@/components/About"
 import Contact from "@/components/Contact"
 import Links from "@/components/Links"
+import Interests from "@/components/Interests"
 import Profile from "@/components/Profile"
 import Skills from "@/components/Skills"
 import ThemeDrawer from "@/components/ThemeDrawer"
@@ -22,6 +23,7 @@ export default function Layout() {
                 <About />
                 <Contact />
                 <Links />
+                <Interests />
             </div>
             <div className="flex items-start flex-col justify-start gap-3">
                 <Skills />
