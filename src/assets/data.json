@@ -97,8 +97,9 @@
         {
             "company": "Octal Philippines, Inc.",
             "position": "PHP Developer",
-            "start_date": "May 2022",
-            "end_date": "Present",
+            "start_date": "2022-05-16",
+            "end_date": "present",
+            "display_date": "month-year",
             "address": "Tomas Morato Ave, Diliman, Quezon City, Metro Manila, Philippines",
             "contributions": [
                 {
@@ -146,8 +147,9 @@
         {
             "company": "Drainwiz",
             "position": "Web Developer",
-            "start_date": "December 2020",
-            "end_date": "May 2022",
+            "start_date": "2020-12-01",
+            "end_date": "2022-05-13",
+            "display_date": "month-year",
             "address": "Echaves St, Dipolog City, Zamboanga del Norte, Philippines",
             "contributions": [
                 {
@@ -165,8 +167,9 @@
             "company": "GOLOG Malaysia",
             "position": "Full Stack Developer",
             "address": "Jalan Industri Mas 14, Taman Mas, 47100 Puchong, Selangor, Malaysia",
-            "start_date": "February 2020",
-            "end_date": "June 2020",
+            "start_date": "2020-02-01",
+            "end_date": "2020-06-01",
+            "display_date": "month-year",
             "contributions": [
                 {
                     "description": "Developed a Twitter Autoposting Web App (Japan) for posting game mechanics and automatically calculating winners via retweets, implementing a custom algorithm with optimized data structures to handle large datasets efficiently."
@@ -186,8 +189,9 @@
             "company": "Department of Public Works and Highways",
             "position": "Administrative Aide I",
             "address": "Segabe, Piñan, Zamboanga del Norte, Philippines",
-            "start_date": "September 2018",
-            "end_date": "February 2020",
+            "start_date": "2018-09-01",
+            "end_date": "2020-02-01",
+            "display_date": "month-year",
             "contributions": [
                 {
                     "description": "Provided administrative and clerical support to the department, ensuring accurate preparation and filing of official documents."
@@ -210,6 +214,7 @@
             "degree": "Bachelor of Science in Information Technology",
             "start_date": "2014",
             "end_date": "2018",
+            "display_date": "year-only",
             "address": "Naawan, 9023 Misamis Oriental, Philippines"
         }
     ]

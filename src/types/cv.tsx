@@ -3,11 +3,15 @@ interface ContributionItem {
     extra_info?: string[];
 }
 
+export type DateString = string | 'present';
+export type DateDisplayFormat = 'month-year' | 'year-only';
+
 export interface ExperienceItemProps {
     company: string;
     position: string;
-    start_date: string;
-    end_date: string;
+    start_date: DateString;
+    end_date: DateString;
+    display_date: DateDisplayFormat;
     address: string;
     contributions: ContributionItem[];
 }
@@ -20,8 +24,9 @@ export interface SkillItem {
 export interface EducationItemProps {
     institution: string;
     degree: string;
-    start_date: string;
-    end_date: string;
+    start_date: DateString;
+    end_date: DateString;
+    display_date: DateDisplayFormat;
     address: string;
 }
 
