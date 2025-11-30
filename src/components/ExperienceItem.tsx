@@ -30,9 +30,9 @@ export default function ExperienceItem(props: ExperiencesItemProps) {
     return <>
         <div className="border-info border-s pt-7 pb-3 ps-2 relative">
 
-            <span className={`px-2 pe-4 absolute top-0 left-0 bg-info text-info-content`}>
+            <span className="px-2 pe-4 absolute top-0 left-0 bg-info text-info-content">
                 <span>{displayDateRange} · {dateDiff.text}</span>
-                <span className={`bg-info border border-info absolute top-[50%] left-0 transform translate-y-[-50%] translate-x-[-50%] rotate-45 w-2 h-2`}></span>
+                <span className="bg-info border border-info absolute top-[50%] left-0 transform translate-y-[-50%] translate-x-[-50%] rotate-45 w-2 h-2"></span>
                 <span className="absolute top-[50%] right-0 w-4 h-4 bg-base-200 transform translate-y-[-40%] translate-x-[50%] rotate-45"></span>
             </span>
 
