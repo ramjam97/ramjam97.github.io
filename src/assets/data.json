@@ -11,6 +11,20 @@
     "emails": [
         "ram.jamolod@gmail.com"
     ],
+    "certificates": [
+        {
+            "title": "Hands-On On Figma UI/UX Design Workshop",
+            "issuer": "EPCPS",
+            "url": "https://drive.google.com/file/d/14SG557kxh7ZTRPsGzRpBsvAN5TnGYZRs/view?usp=sharing",
+            "date": "2025-11-16"
+        },
+        {
+            "title": "Introduction To Python Django Flask",
+            "issuer": "EPCPS",
+            "url": "https://drive.google.com/file/d/1dxobA_mOE2tn8yhdBG8UJq-PAqMJZMMQ/view?usp=sharing",
+            "date": "2025-11-17"
+        }
+    ],
     "links": [
         {
             "icon": "pi pi-linkedin",

@@ -7,6 +7,7 @@ import { ID_SKILLS } from '@/components/Skills';
 import { ID_PROFILE } from '@/components/Profile';
 import { ID_EDUCATION } from '@/components/Education';
 import { ID_BIO } from '@/components/Bio';
+import { ID_CERTIFICATES } from '@/components/Certificates';
 
 export interface MenuItemProps {
     id: string;
@@ -25,6 +26,7 @@ export default function useMenu(): [MenuItemProps[], (id: string, isShow: boolea
         { id: ID_SKILLS, name: 'Skills', show: true },
         { id: ID_EXPERIENCE, name: 'Experience', show: true },
         { id: ID_EDUCATION, name: 'Education', show: true },
+        { id: ID_CERTIFICATES, name: 'Certificates', show: true },
     ]);
 
     const setMenuVisibility = (id: string, isShow: boolean) => {

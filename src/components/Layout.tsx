@@ -9,6 +9,7 @@ import Footer from "@/components/Footer"
 import Menu from "@/components/Menu"
 import Education from "@/components/Education"
 import Bio from "@/components/Bio"
+import Certificates from "@/components/Certificates"
 
 export default function Layout() {
     return <>
@@ -26,6 +27,7 @@ export default function Layout() {
                 <Skills />
                 <Experiences />
                 <Education />
+                <Certificates />
             </div>
         </div>
         <Footer />

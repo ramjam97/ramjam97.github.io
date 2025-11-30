@@ -9,6 +9,11 @@ export function array_shuffle(array: string[] = []) {
     return array;
 }
 
+export function getMonthYear(dateString: string) {
+    const date = new Date(dateString);
+    return date.getFullYear();
+}
+
 export function getDisplayDate(dateStr: DateString, displayFormat: DateDisplayFormat) {
 
     if (typeof dateStr === "string" && dateStr.toLowerCase() === "present") {
