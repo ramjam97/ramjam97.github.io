@@ -42,7 +42,7 @@ export default function Certificates() {
     return <>
         {sortedYears.length > 0 && <>
             <Card title={`🏆 ${COMP_CERTIFICATES.name}`} id={COMP_CERTIFICATES.id}>
-                <div className="flex flex-col pt-2">
+                <div className="flex flex-col pt-2 ps-1">
                     {sortedYears.map((year, idx) => <CertificateGroup
                         key={idx}
                         year={year}
@@ -67,7 +67,7 @@ interface CertificateGroupProps {
 const CertificateGroup = ({ year, items, index, total }: CertificateGroupProps) => {
 
     return <>
-        <div className="border-secondary border-s pt-7 pb-3 ps-2 relative">
+        <div className={`border-secondary border-s pt-5 ps-1 relative ${index === total - 1 ? 'pb-3' : 'pb-1'}`}>
 
             <span className="px-2 pe-4 absolute top-0 left-0 bg-secondary text-secondary-content">
                 <span>Year {year}</span>
@@ -79,7 +79,7 @@ const CertificateGroup = ({ year, items, index, total }: CertificateGroupProps) 
                 {items.map((item, idx) => <CertificateItem key={idx} item={item} />)}
             </div>
 
-            {index === total - 1 && <span className="absolute bottom-0 left-0 lh-0 w-2 h-2 bg-secondary transform translate-x-[-50%] rounded-full"></span>}
+            {index === total - 1 && <span className="absolute bottom-0 left-0 lh-0 w-2 h-2 bg-secondary transform translate-x-[-55%] rounded-full"></span>}
 
         </div>
     </>
