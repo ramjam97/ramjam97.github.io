@@ -28,8 +28,8 @@ export default function Layout() {
             <div className="flex items-start flex-col justify-start gap-3">
                 <Skills />
                 <Experiences />
-                <Certificates />
                 <Education />
+                <Certificates />
             </div>
         </div>
         <Footer />

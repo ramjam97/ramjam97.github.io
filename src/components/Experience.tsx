@@ -3,8 +3,13 @@ import { AppContext } from "@/context/AppContextProvider";
 import Card from "@/components/Card";
 import ExperienceItem from "@/components/ExperienceItem";
 import ExperienceItemV2 from "@/components/ExperienceItemV2";
+import type { MenuItemProps } from "@/hooks/useMenu";
 
-export const ID_EXPERIENCE = "experience";
+export const COMP_EXPERIENCE: MenuItemProps = {
+    id: 'experiences',
+    name: 'Experiences',
+    show: true
+};
 
 export default function Experience() {
 
@@ -27,14 +32,14 @@ export default function Experience() {
         : setCollapsedItems(experience.map((_, index) => index));
 
     useEffect(() => {
-        setMenuVisibility(ID_EXPERIENCE, experience.length > 0);
+        setMenuVisibility(COMP_EXPERIENCE.id, experience.length > 0);
     }, []);
 
     return <>
         {experience.length > 0 &&
-            <Card id={ID_EXPERIENCE}>
+            <Card id={COMP_EXPERIENCE.id}>
                 <div className="flex justify-between items-center">
-                    <h2 className="card-title text-primary text-xl">🚀 Experiences</h2>
+                    <h2 className="card-title text-primary text-xl">🚀 {COMP_EXPERIENCE.name}</h2>
                     <label className="btn btn-circle btn-ghost swap swap-rotate">
                         <input type="checkbox" checked={isAllCollapsed} onChange={() => toogleCollapseAll()} />
                         <i className="swap-on pi pi-angle-right"></i>

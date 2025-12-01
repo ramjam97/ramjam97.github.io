@@ -4,15 +4,20 @@ import Card from '@/components/Card';
 import DownloadButton from '@/components/DownloadButton';
 import ProfileImg from '@/assets/profile.jpg';
 import Badges from './Badges';
+import type { MenuItemProps } from '@/hooks/useMenu';
 
-export const ID_PROFILE = "profile";
+export const COMP_PROFILE: MenuItemProps = {
+    id: 'profile',
+    name: 'Profile',
+    show: true
+};
 
 export default function Profile() {
 
     const { data, showThemeController, setShowThemeController } = useContext(AppContext);
 
     return <>
-        <Card id={ID_PROFILE}>
+        <Card id={COMP_PROFILE.id}>
 
             <div className='flex flex-col gap-2'>
 

@@ -4,8 +4,13 @@ import Card from "@/components/Card";
 import CertificateItem from "@/components/CertificateItem";
 import { getMonthYear } from "@/utils/universal";
 import type { CertificateItemProps } from "@/types/cv";
+import type { MenuItemProps } from "@/hooks/useMenu";
 
-export const ID_CERTIFICATES = "certificates";
+export const COMP_CERTIFICATES: MenuItemProps = {
+    id: 'certificates',
+    name: 'Certificates & Trainings',
+    show: true
+};
 
 interface GroupedCertificates {
     [monthYear: string]: CertificateItemProps[];
@@ -31,12 +36,12 @@ export default function Certificates() {
     const sortedYears = Object.keys(certificateGroupByYear).sort((a, b) => parseInt(b) - parseInt(a));
 
     useEffect(() => {
-        setMenuVisibility(ID_CERTIFICATES, sortedYears.length > 0);
+        setMenuVisibility(COMP_CERTIFICATES.id, sortedYears.length > 0);
     }, []);
 
     return <>
         {sortedYears.length > 0 && <>
-            <Card title='📜 Certificates & Trainings' id={ID_CERTIFICATES}>
+            <Card title={`🏆 ${COMP_CERTIFICATES.name}`} id={COMP_CERTIFICATES.id}>
                 <div className="flex flex-col">
                     {sortedYears.map((year, idx) => <CertificateGroup
                         key={idx}

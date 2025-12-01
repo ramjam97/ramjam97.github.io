@@ -3,8 +3,13 @@ import { AppContext } from "@/context/AppContextProvider";
 import Card from "@/components/Card";
 import EducationItem from "@/components/EducationItem";
 import EducationItemV2 from "@/components/EducationItemV2";
+import type { MenuItemProps } from "@/hooks/useMenu";
 
-export const ID_EDUCATION = "education";
+export const COMP_EDUCATION: MenuItemProps = {
+    id: 'education',
+    name: 'Education',
+    show: true
+};
 export default function Education() {
 
     const { data, setMenuVisibility } = useContext(AppContext);
@@ -13,12 +18,12 @@ export default function Education() {
     const educations = data.education || [];
 
     useEffect(() => {
-        setMenuVisibility(ID_EDUCATION, educations.length > 0);
+        setMenuVisibility(COMP_EDUCATION.id, educations.length > 0);
     }, [])
 
     return <>
         {educations.length > 0 && <>
-            <Card title='👨‍🎓 Education' id={ID_EDUCATION}>
+            <Card title={`🎓 ${COMP_EDUCATION.name}`} id={COMP_EDUCATION.id}>
                 {templateVersion === 1 && <>
                     <div className="flex flex-col">
                         {educations.map((item, index) => <EducationItem

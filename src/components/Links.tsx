@@ -1,8 +1,13 @@
 import { useContext, useEffect } from 'react';
 import { AppContext } from '@/context/AppContextProvider';
 import Card from '@/components/Card';
+import type { MenuItemProps } from '@/hooks/useMenu';
 
-export const ID_LINKS = "links";
+export const COMP_LINKS: MenuItemProps = {
+    id: 'links',
+    name: 'Connect With Me',
+    show: true
+};
 
 export default function Links() {
 
@@ -11,12 +16,12 @@ export default function Links() {
     const links = data.links || [];
 
     useEffect(() => {
-        setMenuVisibility(ID_LINKS, links.length > 0);
+        setMenuVisibility(COMP_LINKS.id, links.length > 0);
     }, []);
 
     return <>
         {links.length > 0 &&
-            <Card title='🤝 Connect With Me' id={ID_LINKS}>
+            <Card title={`🤝 ${COMP_LINKS.name}`} id={COMP_LINKS.name}>
                 <div className='flex flex-col gap-0 px-1'>
                     {links.map((link, index) => <ContactItem key={index} icon={link.icon} url={link.url} />)}
                 </div>

@@ -1,14 +1,14 @@
 import { useState } from 'react';
-import { ID_EXPERIENCE } from '@/components/Experience';
-import { ID_ABOUT } from '@/components/About';
-import { ID_CONTACTS } from '@/components/Contact';
-import { ID_LINKS } from '@/components/Links';
-import { ID_INTERESTS } from '@/components/Interests';
-import { ID_SKILLS } from '@/components/Skills';
-import { ID_PROFILE } from '@/components/Profile';
-import { ID_EDUCATION } from '@/components/Education';
-import { ID_BIO } from '@/components/Bio';
-import { ID_CERTIFICATES } from '@/components/Certificates';
+import { COMP_EXPERIENCE } from '@/components/Experience';
+import { COMP_ABOUT } from '@/components/About';
+import { COMP_CONTACTS } from '@/components/Contact';
+import { COMP_LINKS } from '@/components/Links';
+import { COMP_INTERESTS } from '@/components/Interests';
+import { COMP_SKILLS } from '@/components/Skills';
+import { COMP_PROFILE } from '@/components/Profile';
+import { COMP_EDUCATION } from '@/components/Education';
+import { COMP_BIO } from '@/components/Bio';
+import { COMP_CERTIFICATES } from '@/components/Certificates';
 
 export interface MenuItemProps {
     id: string;
@@ -19,16 +19,16 @@ export interface MenuItemProps {
 export default function useMenu(): [MenuItemProps[], (id: string, isShow: boolean) => void] {
 
     const [menu, setMenu] = useState<MenuItemProps[]>([
-        { id: ID_PROFILE, name: 'Profile', show: true },
-        { id: ID_BIO, name: 'Bio', show: true },
-        { id: ID_ABOUT, name: 'About', show: true },
-        { id: ID_CONTACTS, name: 'Contacts', show: true },
-        { id: ID_LINKS, name: 'Connect With Me', show: true },
-        { id: ID_INTERESTS, name: 'Interests', show: true },
-        { id: ID_SKILLS, name: 'Skills', show: true },
-        { id: ID_EXPERIENCE, name: 'Experience', show: true },
-        { id: ID_EDUCATION, name: 'Education', show: true },
-        { id: ID_CERTIFICATES, name: 'Certificates & Trainings', show: true },
+        COMP_PROFILE,
+        COMP_BIO,
+        COMP_ABOUT,
+        COMP_CONTACTS,
+        COMP_LINKS,
+        COMP_INTERESTS,
+        COMP_SKILLS,
+        COMP_EXPERIENCE,
+        COMP_EDUCATION,
+        COMP_CERTIFICATES
     ]);
 
     const setMenuVisibility = (id: string, isShow: boolean) => {
