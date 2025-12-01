@@ -42,7 +42,7 @@ export default function Certificates() {
     return <>
         {sortedYears.length > 0 && <>
             <Card title={`🏆 ${COMP_CERTIFICATES.name}`} id={COMP_CERTIFICATES.id}>
-                <div className="flex flex-col">
+                <div className="flex flex-col pt-2">
                     {sortedYears.map((year, idx) => <CertificateGroup
                         key={idx}
                         year={year}
