@@ -16,7 +16,7 @@ export default function Layout() {
     return <>
         <ThemeDrawer />
         <Menu />
-        <div className="max-w-6xl mx-auto grid md:grid-cols-[30%_1fr] lg:grid-cols-[25%_1fr] gap-3 py-3 px-2 text-base-content">
+        <div className="max-w-6xl mx-auto grid md:grid-cols-[30%_1fr] lg:grid-cols-[25%_1fr] gap-3 md:py-3 md:px-2 text-base-content">
             <div className="w-full flex items-start flex-col justify-start gap-3">
                 <Profile />
                 <Bio />
