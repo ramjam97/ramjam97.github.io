@@ -36,7 +36,7 @@ export default function Certificates() {
 
     return <>
         {sortedYears.length > 0 && <>
-            <Card title='📜 Certificates' id={ID_CERTIFICATES}>
+            <Card title='📜 Certificates & Trainings' id={ID_CERTIFICATES}>
                 <div className="flex flex-col">
                     {sortedYears.map((year, idx) => <CertificateGroup
                         key={idx}

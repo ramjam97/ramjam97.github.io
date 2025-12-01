@@ -28,7 +28,7 @@ export default function useMenu(): [MenuItemProps[], (id: string, isShow: boolea
         { id: ID_SKILLS, name: 'Skills', show: true },
         { id: ID_EXPERIENCE, name: 'Experience', show: true },
         { id: ID_EDUCATION, name: 'Education', show: true },
-        { id: ID_CERTIFICATES, name: 'Certificates', show: true },
+        { id: ID_CERTIFICATES, name: 'Certificates & Trainings', show: true },
     ]);
 
     const setMenuVisibility = (id: string, isShow: boolean) => {
