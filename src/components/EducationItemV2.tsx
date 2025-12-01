@@ -35,9 +35,9 @@ export default function EducationItemV2({ item }: EducItemProps) {
                 </> : <>
                     <span className="font-bold">{item.degree}</span>
                 </>}
-                <div className="text-xs opacity-60">{displayDateRange} · {dateDiff.text}</div>
+                <div className="text-xs text-base-content/70">{displayDateRange} · {dateDiff.text}</div>
                 <div className="font-semibold">{item.institution}</div>
-                <div className="text-sm text-base-content/70">{item.address}</div>
+                <div className="text-xs text-base-content/70">{item.address}</div>
             </div>
 
         </li>

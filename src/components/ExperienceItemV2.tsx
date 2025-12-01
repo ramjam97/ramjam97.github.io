@@ -50,11 +50,11 @@ export default function ExperienceItemV2(props: ExperienceItemV2Props) {
                         <span className="flex flex-col gap-1">
                             <div>
                                 <div className="font-bold link-hover">{item.position}</div>
-                                <div className="text-xs opacity-60">{displayDateRange} · {dateDiff.text}</div>
+                                <div className="text-xs text-base-content/70">{displayDateRange} · {dateDiff.text}</div>
                             </div>
                             <div>
                                 <div className="font-semibold">{item.company}</div>
-                                <div className="text-sm text-base-content/70">{item.address}</div>
+                                <div className="text-xs text-base-content/70">{item.address}</div>
                             </div>
                         </span>
                     </div>

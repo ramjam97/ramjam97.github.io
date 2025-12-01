@@ -11,7 +11,9 @@ export default function CertificateItem({ item }: CertItemProps) {
             <a href={item.url} target="_blank">
                 <div className="font-bold link-hover">{item.title}</div>
             </a>
-            <div className="font-semibold"><span className="text-base-content/80">Issued by</span> {item.issuer}</div>
+            <div className="text-xs">
+                <span className="text-base-content/80">Issued by</span> <span className="font-semibold ">{item.issuer}</span>
+            </div>
         </span>
     </>
 }
