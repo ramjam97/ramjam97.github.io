@@ -75,7 +75,7 @@ const CertificateGroup = ({ year, items, index, total }: CertificateGroupProps) 
                 <span className="absolute top-[50%] right-0 w-4 h-4 bg-base-200 transform translate-y-[-40%] translate-x-[50%] rotate-45"></span>
             </span>
 
-            <div className="p-2 flex flex-col gap-2">
+            <div className="p-2 flex flex-col gap-2 items-start">
                 {items.map((item, idx) => <CertificateItem key={idx} item={item} />)}
             </div>
 
