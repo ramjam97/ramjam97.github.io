@@ -41,6 +41,12 @@
             "issuer": "EPCPS",
             "url": "https://drive.google.com/file/d/1T-4I4z2wxDlXPXtmpoHiBb6rnIWacCVH/view?usp=sharing",
             "date": "2025-11-30"
+        },
+        {
+            "title": "Basics Of Python",
+            "issuer": "UniAthena",
+            "url": "https://drive.google.com/file/d/1gEsgfKloGiFM0ZVb-x4kGT68hZj4FFYS/view?usp=sharing",
+            "date": "2025-12-01"
         }
     ],
     "links": [
@@ -254,15 +260,6 @@
             "address": "Naawan, 9023 Misamis Oriental, Philippines",
             "url": "https://drive.google.com/file/d/1XVQWopb13ZBKff0OgLKNeiJAEnjtCla1/view?usp=sharing",
             "logo": "msu-naawan.png"
-        },
-        {
-            "institution": "Silawe National High School",
-            "degree": "High School Diploma",
-            "start_date": "2010",
-            "end_date": "2014",
-            "display_date": "year-only",
-            "address": "Silawe, Polanco, Zamboanga del Norte, Philippines",
-            "logo": "silawe.jpg"
         }
     ]
 }
