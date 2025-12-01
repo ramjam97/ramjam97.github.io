@@ -60,7 +60,7 @@ export default function ExperienceItemV2(props: ExperienceItemV2Props) {
                     </div>
                 </summary>
 
-                <div className="collapse-content text-sm px-0 mt-1">
+                <div className="collapse-content text-sm p-0 mt-1">
                     <span className="font-semibold">Key Achievements:</span>
                     <ul className="list-none space-y-1">
                         {item.contributions.map((contribution, ind) => <ContributeItem key={ind} contribution={contribution} />)}
