@@ -2,12 +2,10 @@ import type { EducationItemProps } from "@/types/cv";
 import { getDateRangeDiff, getDisplayDate } from "@/utils/universal";
 
 interface EducItemProps {
-    index: number;
-    total: number;
     item: EducationItemProps;
 }
 
-export default function EducationItem({ index, total, item }: EducItemProps) {
+export default function EducationItemV2({ item }: EducItemProps) {
 
     const displayDateRange = [
         getDisplayDate(item.start_date, item.display_date),
@@ -17,26 +15,31 @@ export default function EducationItem({ index, total, item }: EducItemProps) {
     const dateDiff = getDateRangeDiff(item.start_date, item.end_date);
 
     return <>
-        <div className="border-secondary border-s pt-7 pb-3 ps-2 relative">
+        <li className="list-row flex gap-2 px-0 py-2 pb-3">
 
-            <span className="px-2 pe-4 absolute top-0 left-0 bg-secondary text-secondary-content">
-                <span>{displayDateRange} · {dateDiff.text}</span>
-                <span className="bg-secondary border border-secondary absolute top-[50%] left-0 transform translate-y-[-50%] translate-x-[-50%] rotate-45 w-2 h-2"></span>
-                <span className="absolute top-[50%] right-0 w-4 h-4 bg-base-200 transform translate-y-[-40%] translate-x-[50%] rotate-45"></span>
+            <span className='flex items-start justify-center'>
+                <div className='avatar'>
+                    <div className='w-10 rounded-full ring ring-base-200 ring-offset-0 bg-base-100 overflow-hidden flex items-center justify-center'>
+                        {item?.logo && item.logo.trim() !== '' ? <>
+                            <img src={`/logo/${item.logo}`} />
+                        </> : <>
+                            <i className="pi pi-building"></i>
+                        </>}
+                    </div>
+                </div>
             </span>
 
-            <div className="p-2">
+            <div className="flex flex-col gap-0">
                 {item?.url && item.url.trim() !== '' ? <>
                     <a href={item.url} target="_blank" className="font-bold link-hover">{item.degree}</a>
                 </> : <>
                     <span className="font-bold">{item.degree}</span>
                 </>}
+                <div className="text-xs opacity-60">{displayDateRange} · {dateDiff.text}</div>
                 <div className="font-semibold">{item.institution}</div>
                 <div className="text-sm text-base-content/70">{item.address}</div>
             </div>
 
-            {index === total - 1 && <span className="absolute bottom-0 left-0 lh-0 w-2 h-2 bg-secondary transform translate-x-[-50%] rounded-full"></span>}
-
-        </div>
+        </li>
     </>
 }

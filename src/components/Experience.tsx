@@ -1,7 +1,8 @@
 import { useContext, useEffect, useState } from "react";
 import { AppContext } from "@/context/AppContextProvider";
-import ExperienceItem from "@/components/ExperienceItem";
 import Card from "@/components/Card";
+import ExperienceItem from "@/components/ExperienceItem";
+import ExperienceItemV2 from "@/components/ExperienceItemV2";
 
 export const ID_EXPERIENCE = "experience";
 
@@ -9,6 +10,7 @@ export default function Experience() {
 
     const { data, setMenuVisibility } = useContext(AppContext);
 
+    const templateVersion: number = 2;
     const experience = data.experience || [];
 
     const [collapsedItems, setCollapsedItems] = useState<number[]>(experience.map((_, index) => index));
@@ -39,16 +41,31 @@ export default function Experience() {
                         <i className="swap-off pi pi-angle-down"></i>
                     </label>
                 </div>
-                <div className="flex flex-col">
-                    {experience.map((item, index) => <ExperienceItem
-                        key={index}
-                        index={index}
-                        total={experience.length}
-                        item={item}
-                        collapsedItems={collapsedItems}
-                        toogleCollapse={toogleCollapse}
-                    />)}
-                </div>
+
+                {templateVersion === 1 && <>
+                    <div className="flex flex-col">
+                        {experience.map((item, index) => <ExperienceItem
+                            key={index}
+                            index={index}
+                            total={experience.length}
+                            item={item}
+                            collapsedItems={collapsedItems}
+                            toogleCollapse={toogleCollapse}
+                        />)}
+                    </div>
+                </>}
+                {templateVersion === 2 && <>
+                    <ul className="list">
+                        {experience.map((item, index) => <ExperienceItemV2
+                            key={`v2-${index}`}
+                            index={index}
+                            item={item}
+                            collapsedItems={collapsedItems}
+                            toogleCollapse={toogleCollapse}
+                        />)}
+                    </ul>
+                </>}
+
             </Card>
         }
     </>

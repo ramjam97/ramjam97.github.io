@@ -1,4 +1,4 @@
-interface ContributionItem {
+export interface ContributionItem {
     description: string;
     extra_info?: string[];
 }
@@ -14,6 +14,7 @@ export interface ExperienceItemProps {
     display_date: DateDisplayFormat;
     address: string;
     contributions: ContributionItem[];
+    logo?: string;
 }
 
 export interface SkillItem {
@@ -24,11 +25,12 @@ export interface SkillItem {
 export interface EducationItemProps {
     institution: string;
     degree: string;
-    url: string;
+    url?: string;
     start_date: DateString;
     end_date: DateString;
     display_date: DateDisplayFormat;
     address: string;
+    logo?: string;
 }
 
 export interface CertificateItemProps {

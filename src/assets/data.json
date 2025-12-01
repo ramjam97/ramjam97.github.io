@@ -133,6 +133,7 @@
             "end_date": "present",
             "display_date": "month-year",
             "address": "Tomas Morato Ave, Diliman, Quezon City, Metro Manila, Philippines",
+            "logo": "octal.jfif",
             "contributions": [
                 {
                     "description": "Contributed to the Marketing Onboarding Engine, streamlining bulk email sending and optimization."
@@ -183,6 +184,7 @@
             "end_date": "2022-05-13",
             "display_date": "month-year",
             "address": "Echaves St, Dipolog City, Zamboanga del Norte, Philippines",
+            "logo": "drainwiz.png",
             "contributions": [
                 {
                     "description": "Designed and developed a Restaurant Management System to streamline ordering, inventory, and reporting processes."
@@ -202,6 +204,7 @@
             "start_date": "2020-02-01",
             "end_date": "2020-06-01",
             "display_date": "month-year",
+            "logo": "golog.jfif",
             "contributions": [
                 {
                     "description": "Developed a Twitter Autoposting Web App (Japan) for posting game mechanics and automatically calculating winners via retweets, implementing a custom algorithm with optimized data structures to handle large datasets efficiently."
@@ -224,6 +227,7 @@
             "start_date": "2018-09-01",
             "end_date": "2020-02-01",
             "display_date": "month-year",
+            "logo": "dpwh.jfif",
             "contributions": [
                 {
                     "description": "Provided administrative and clerical support to the department, ensuring accurate preparation and filing of official documents."
@@ -248,7 +252,17 @@
             "end_date": "2018",
             "display_date": "year-only",
             "address": "Naawan, 9023 Misamis Oriental, Philippines",
-            "url": "https://drive.google.com/file/d/1XVQWopb13ZBKff0OgLKNeiJAEnjtCla1/view?usp=sharing"
+            "url": "https://drive.google.com/file/d/1XVQWopb13ZBKff0OgLKNeiJAEnjtCla1/view?usp=sharing",
+            "logo": "msu-naawan.png"
+        },
+        {
+            "institution": "Silawe National High School",
+            "degree": "High School Diploma",
+            "start_date": "2010",
+            "end_date": "2014",
+            "display_date": "year-only",
+            "address": "Silawe, Polanco, Zamboanga del Norte, Philippines",
+            "logo": "silawe.jpg"
         }
     ]
 }
