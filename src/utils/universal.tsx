@@ -11,6 +11,12 @@ export function array_shuffle(array: string[] = []) {
 
 export function getMonthYear(dateString: string) {
     const date = new Date(dateString);
+    const month = date.toLocaleString('default', { month: 'long' });
+    const year = date.getFullYear();
+    return `${month} ${year}`;
+}
+export function getYear(dateString: string) {
+    const date = new Date(dateString);
     return date.getFullYear();
 }
 
