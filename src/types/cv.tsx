@@ -37,7 +37,7 @@ export interface CertificateItemProps {
     title: string;
     issuer: string;
     url: string;
-    date: DateString;
+    date: string;
 }
 
 export interface LinkItem {

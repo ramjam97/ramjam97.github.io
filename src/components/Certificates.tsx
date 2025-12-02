@@ -1,8 +1,8 @@
-import { AppContext } from "@/context/AppContextProvider";
 import { useContext, useEffect, useMemo } from "react";
+import { AppContext } from "@/context/AppContextProvider";
 import Card from "@/components/Card";
 import CertificateItem from "@/components/CertificateItem";
-import { getMonthYear } from "@/utils/universal";
+import { getMonthYear, sortArrayObjectByKey } from "@/utils/universal";
 import type { CertificateItemProps } from "@/types/cv";
 import type { MenuItemProps } from "@/hooks/useMenu";
 
@@ -20,7 +20,7 @@ export default function Certificates() {
 
     const { data, setMenuVisibility } = useContext(AppContext);
 
-    const certificates = data.certificates || [];
+    const certificates = sortArrayObjectByKey(data.certificates || [], 'date', true);
 
     const certificateGroupByYear: GroupedCertificates = useMemo(() => {
         return certificates.reduce<GroupedCertificates>((acc, cert) => {
@@ -56,7 +56,6 @@ export default function Certificates() {
     </>
 }
 
-
 interface CertificateGroupProps {
     year: string;
     items: CertificateItemProps[];
@@ -65,7 +64,6 @@ interface CertificateGroupProps {
 }
 
 const CertificateGroup = ({ year, items, index, total }: CertificateGroupProps) => {
-
     return <>
         <div className={`border-secondary border-s pt-6 ps-1 relative ${index === total - 1 ? 'pb-3' : 'pb-1'}`}>
 

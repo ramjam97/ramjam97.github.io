@@ -64,3 +64,11 @@ export function getDateRangeDiff(startDateStr: DateString, endDateStr: DateStrin
 
     return { years, months, text };
 }
+
+export function sortArrayObjectByKey(array: any[], key: string, descending: boolean = false) {
+    return array.sort((a, b) => {
+        if (a[key] < b[key]) return descending ? 1 : -1;
+        if (a[key] > b[key]) return descending ? -1 : 1;
+        return 0;
+    });
+}
