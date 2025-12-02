@@ -73,7 +73,6 @@ export default function ExperienceItemV2(props: ExperienceItemV2Props) {
     </>
 }
 
-
 const ContributeItem = ({ contribution }: { contribution: ContributionItem }) => {
     return <>
         <li className="relative pl-5 before:content-['→'] before:absolute before:left-0 before:text-base-content">

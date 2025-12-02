@@ -67,7 +67,7 @@ interface CertificateGroupProps {
 const CertificateGroup = ({ year, items, index, total }: CertificateGroupProps) => {
 
     return <>
-        <div className={`border-secondary border-s pt-5 ps-1 relative ${index === total - 1 ? 'pb-3' : 'pb-1'}`}>
+        <div className={`border-secondary border-s pt-6 ps-1 relative ${index === total - 1 ? 'pb-3' : 'pb-1'}`}>
 
             <span className="px-2 pe-4 absolute top-0 left-0 bg-secondary text-secondary-content">
                 <span>Year {year}</span>
