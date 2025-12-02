@@ -5,7 +5,6 @@ export interface ContributionItem {
 
 export type DateString = string | 'present';
 export type DateDisplayFormat = string | 'month-year' | 'year-only';
-
 export interface ExperienceItemProps {
     company: string;
     position: string;
@@ -16,12 +15,10 @@ export interface ExperienceItemProps {
     contributions: ContributionItem[];
     logo?: string;
 }
-
 export interface SkillItem {
     title: string;
     skills: string[];
 }
-
 export interface EducationItemProps {
     institution: string;
     degree: string;
@@ -32,12 +29,12 @@ export interface EducationItemProps {
     address: string;
     logo?: string;
 }
-
 export interface CertificateItemProps {
     title: string;
     issuer: string;
     url: string;
     date: string;
+    show: boolean;
 }
 
 export interface LinkItem {

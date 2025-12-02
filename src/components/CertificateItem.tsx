@@ -12,7 +12,7 @@ export default function CertificateItem({ item }: CertItemProps) {
                 <div className="font-bold link-hover">{item.title}</div>
             </a>
             <div className="text-xs">
-                <span className="text-base-content/80">Issued by</span> <span className="font-semibold ">{item.issuer}</span>
+                <span className="text-base-content/80">Issued by</span> <span className="font-semibold text-base-content/85">{item.issuer}</span>
             </div>
         </span>
     </>

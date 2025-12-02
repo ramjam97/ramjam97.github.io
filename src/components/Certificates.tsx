@@ -20,17 +20,19 @@ export default function Certificates() {
 
     const { data, setMenuVisibility } = useContext(AppContext);
 
-    const certificates = sortArrayObjectByKey(data.certificates || [], 'date', true);
+    const certificates: CertificateItemProps[] = sortArrayObjectByKey(data.certificates || [], 'date', true);
 
     const certificateGroupByYear: GroupedCertificates = useMemo(() => {
-        return certificates.reduce<GroupedCertificates>((acc, cert) => {
-            const monthYear = getYear(cert.date);
-            if (!acc[monthYear]) {
-                acc[monthYear] = [];
-            }
-            acc[monthYear].push(cert);
-            return acc;
-        }, {});
+        return certificates
+            .filter(cert => cert.show)
+            .reduce<GroupedCertificates>((acc, cert) => {
+                const monthYear = getYear(cert.date);
+                if (!acc[monthYear]) {
+                    acc[monthYear] = [];
+                }
+                acc[monthYear].push(cert);
+                return acc;
+            }, {});
     }, [certificates]);
 
     const sortedYears = Object.keys(certificateGroupByYear).sort((a, b) => parseInt(b) - parseInt(a));
@@ -68,9 +70,9 @@ const CertificateGroup = ({ year, items, index, total }: CertificateGroupProps) 
         <div className={`border-secondary border-s pt-6 ps-1 relative ${index === total - 1 ? 'pb-3' : 'pb-1'}`}>
 
             <span className="px-3 pe-5 absolute top-0 left-0 bg-secondary text-secondary-content">
-                <span>{year}</span>
+                <span className="italic">{year}</span>
                 <span className="bg-secondary border border-secondary absolute top-[50%] left-0 transform translate-y-[-50%] translate-x-[-50%] rotate-45 w-2 h-2"></span>
-                <span className="absolute top-[50%] right-0 w-4 h-4 bg-base-200 transform translate-y-[-40%] translate-x-[50%] rotate-45"></span>
+                <span className="absolute top-[50%] right-0 w-4 h-4 bg-base-200 transform translate-y-[-40%] translate-x-[50%] rotate-48"></span>
             </span>
 
             <div className="p-2 flex flex-col gap-2 items-start">

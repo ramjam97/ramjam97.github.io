@@ -241,31 +241,43 @@
             "title": "Hands-on on Figma UI/UX Design Workshop",
             "issuer": "EPCPS",
             "url": "https://drive.google.com/file/d/14SG557kxh7ZTRPsGzRpBsvAN5TnGYZRs/view?usp=sharing",
-            "date": "2025-11-16"
+            "date": "2025-11-16",
+            "show": true
         },
         {
             "title": "Introduction to Python Django Flask",
             "issuer": "EPCPS",
             "url": "https://drive.google.com/file/d/1dxobA_mOE2tn8yhdBG8UJq-PAqMJZMMQ/view?usp=sharing",
-            "date": "2025-11-17"
+            "date": "2025-11-17",
+            "show": true
         },
         {
             "title": "PHP Programming Web Development",
             "issuer": "EPCPS",
             "url": "https://drive.google.com/file/d/1T-4I4z2wxDlXPXtmpoHiBb6rnIWacCVH/view?usp=sharing",
-            "date": "2025-11-30"
+            "date": "2025-11-30",
+            "show": true
         },
         {
             "title": "Basics of Python",
             "issuer": "UniAthena",
             "url": "https://drive.google.com/file/d/1gEsgfKloGiFM0ZVb-x4kGT68hZj4FFYS/view?usp=sharing",
-            "date": "2025-12-01"
+            "date": "2025-12-02T10:00:00+08:00",
+            "show": true
         },
         {
             "title": "Modules, Packages & Files in Python",
             "issuer": "UniAthena",
             "url": "https://drive.google.com/file/d/1g1dAys6gaEHYTHnN1WKAPXsN1p0AW0Ir/view?usp=sharing",
-            "date": "2025-12-02"
+            "date": "2025-12-02T18:00:00+08:00",
+            "show": true
+        },
+        {
+            "title": "Version Control Basics",
+            "issuer": "EPCPS",
+            "url": "https://drive.google.com/file/d/1sM3v-gsTSTmXoIZvK4RzYYkwYu0kk6PT/view?usp=sharing",
+            "date": "2025-12-02",
+            "show": true
         }
     ]
 }
