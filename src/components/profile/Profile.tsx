@@ -31,12 +31,12 @@ export default function Profile() {
                 <div className='px-3 py-2 flex items-center justify-center'>
                     <label className="swap swap-flip">
                         <input type="checkbox" />
-                        <div className='swap-on avatar'>
+                        <div className='swap-off avatar'>
                             <div className='w-50 rounded-full ring ring-primary ring-offset-base-100 ring-offset-3 bg-base-300 overflow-hidden'>
                                 <img src={ProfileImg} alt={data.name} />
                             </div>
                         </div>
-                        <div className='swap-off avatar'>
+                        <div className='swap-on avatar'>
                             <div className='flex items-center justify-center w-50 rounded-full ring ring-primary ring-offset-base-100 ring-offset-3 bg-white overflow-hidden'>
                                 <img className='w-[65%] h-[65%]' src={QRCode} alt={data.name} />
                             </div>
