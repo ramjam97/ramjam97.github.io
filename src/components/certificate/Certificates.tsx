@@ -1,7 +1,6 @@
 import { useContext, useEffect, useMemo } from "react";
 import { AppContext } from "@/context/AppContextProvider";
 import Card from "@/components/Card";
-import CertificateItem from "@/components/CertificateItem";
 import { getYear, sortArrayObjectByKey } from "@/utils/universal";
 import type { CertificateItemProps } from "@/types/cv";
 import type { MenuItemProps } from "@/hooks/useMenu";
@@ -44,7 +43,7 @@ export default function Certificates() {
     return <>
         {sortedYears.length > 0 && <>
             <Card title={`🏆 ${COMP_CERTIFICATES.name}`} id={COMP_CERTIFICATES.id}>
-                <div className="flex flex-col pt-2 ps-1">
+                <div className="flex flex-col pt-1 ps-1">
                     {sortedYears.map((year, idx) => <CertificateGroup
                         key={idx}
                         year={year}
@@ -82,5 +81,23 @@ const CertificateGroup = ({ year, items, index, total }: CertificateGroupProps) 
             {index === total - 1 && <span className="absolute bottom-0 left-0 lh-0 w-2 h-2 bg-secondary transform translate-x-[-55%] rounded-full"></span>}
 
         </div>
+    </>
+}
+
+interface CertItemProps {
+    item: CertificateItemProps;
+}
+
+function CertificateItem({ item }: CertItemProps) {
+    return <>
+        <span className="relative">
+            <span className="bg-base-200 border border-secondary absolute left-0 w-2 h-2 absolute top-[30%] left-0 transform translate-y-[-50%] translate-x-[-206%] rounded-full"></span>
+            <a href={item.url} target="_blank">
+                <div className="font-bold link-hover">{item.title}</div>
+            </a>
+            <div className="text-xs">
+                <span className="text-base-content/80">Issued by</span> <span className="font-semibold text-base-content/85">{item.issuer}</span>
+            </div>
+        </span>
     </>
 }

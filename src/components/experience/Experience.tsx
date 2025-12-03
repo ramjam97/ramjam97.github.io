@@ -1,8 +1,8 @@
 import { useContext, useEffect, useState } from "react";
 import { AppContext } from "@/context/AppContextProvider";
 import Card from "@/components/Card";
-import ExperienceItem from "@/components/ExperienceItem";
-import ExperienceItemV2 from "@/components/ExperienceItemV2";
+import ExperienceItem from "@/components/experience/ExperienceItem";
+import ExperienceItemV2 from "@/components/experience/ExperienceItemV2";
 import type { MenuItemProps } from "@/hooks/useMenu";
 
 export const COMP_EXPERIENCE: MenuItemProps = {
@@ -38,6 +38,7 @@ export default function Experience() {
     return <>
         {experience.length > 0 &&
             <Card id={COMP_EXPERIENCE.id}>
+
                 <div className="flex justify-between items-center">
                     <h2 className="card-title text-primary text-xl">🚀 {COMP_EXPERIENCE.name}</h2>
                     <label className="btn btn-circle btn-ghost swap swap-rotate">
@@ -60,10 +61,11 @@ export default function Experience() {
                     </div>
                 </>}
                 {templateVersion === 2 && <>
-                    <ul className="list">
+                    <ul className="list pt-1 pb-2">
                         {experience.map((item, index) => <ExperienceItemV2
                             key={`v2-${index}`}
                             index={index}
+                            total={experience.length}
                             item={item}
                             collapsedItems={collapsedItems}
                             toogleCollapse={toogleCollapse}

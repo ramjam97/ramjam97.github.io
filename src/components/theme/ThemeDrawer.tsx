@@ -1,15 +1,15 @@
 import { useContext, useEffect, useRef } from "react";
 import { AppContext } from "@/context/AppContextProvider";
 import { THEMES_COLLECTION } from "@/constant/themes";
-import ThemeItem from "@/components/ThemeItem";
+import ThemeItem from "@/components/theme/ThemeItem";
 
 export default function ThemeDrawer() {
 
     const { showThemeController, setShowThemeController } = useContext(AppContext);
-    
+
     const cb = useRef<HTMLInputElement>(null);
     const sortedThemes = THEMES_COLLECTION.sort((a, b) => a.localeCompare(b));
-    
+
     const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => setShowThemeController(e.target.checked);
 
     useEffect(() => {

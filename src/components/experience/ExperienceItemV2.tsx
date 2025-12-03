@@ -4,6 +4,7 @@ import { getDateRangeDiff, getDisplayDate } from "@/utils/universal";
 
 interface ExperienceItemV2Props {
     index: number;
+    total: number;
     item: ExperienceItemProps;
     collapsedItems: number[]
     toogleCollapse: (index: number) => void;
@@ -12,7 +13,7 @@ interface ExperienceItemV2Props {
 
 export default function ExperienceItemV2(props: ExperienceItemV2Props) {
 
-    const { index, item, collapsedItems, toogleCollapse } = props;
+    const { index, total, item, collapsedItems, toogleCollapse } = props;
 
     const displayDateRange = [
         getDisplayDate(item.start_date, item.display_date),
@@ -29,7 +30,7 @@ export default function ExperienceItemV2(props: ExperienceItemV2Props) {
     }
 
     return <>
-        <li className="list-row flex gap-2 px-0 py-2 pb-3">
+        <li className={`list-row flex gap-2 px-0 ${index === 0 ? 'pt-0' : 'pt-2'} ${(index + 1) === total ? 'pb-0' : 'pb-3'}`}>
 
             <span className='flex items-start justify-center'>
                 <div className='avatar'>
@@ -37,7 +38,7 @@ export default function ExperienceItemV2(props: ExperienceItemV2Props) {
                         {item?.logo && item.logo.trim() !== '' ? <>
                             <img src={`/logo/${item.logo}`} />
                         </> : <>
-                            <i className="pi pi-building"></i>
+                            <i className="pi pi-building text-2xl text-base-content/20"></i>
                         </>}
                     </div>
                 </div>

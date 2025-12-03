@@ -1,14 +1,14 @@
 import { useState } from 'react';
-import { COMP_EXPERIENCE } from '@/components/Experience';
+import { COMP_EXPERIENCE } from '@/components/experience/Experience';
 import { COMP_ABOUT } from '@/components/About';
 import { COMP_CONTACTS } from '@/components/Contact';
 import { COMP_LINKS } from '@/components/Links';
 import { COMP_INTERESTS } from '@/components/Interests';
-import { COMP_SKILLS } from '@/components/Skills';
+import { COMP_SKILLS } from '@/components/skills/Skills';
 import { COMP_PROFILE } from '@/components/Profile';
-import { COMP_EDUCATION } from '@/components/Education';
+import { COMP_EDUCATION } from '@/components/education/Education';
 import { COMP_BIO } from '@/components/Bio';
-import { COMP_CERTIFICATES } from '@/components/Certificates';
+import { COMP_CERTIFICATES } from '@/components/certificate/Certificates';
 
 export interface MenuItemProps {
     id: string;

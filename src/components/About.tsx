@@ -11,5 +11,5 @@ export const COMP_ABOUT: MenuItemProps = {
 
 export default function About() {
     const { data } = useContext(AppContext);
-    return <Card title={`📜 ${COMP_ABOUT.name}`} id={COMP_ABOUT.id}><p>{data.about}</p></Card>
+    return <Card title={`👨‍💼 ${COMP_ABOUT.name}`} id={COMP_ABOUT.id}><p>{data.about}</p></Card>
 }

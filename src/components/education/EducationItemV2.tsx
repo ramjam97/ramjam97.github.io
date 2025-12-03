@@ -2,10 +2,12 @@ import type { EducationItemProps } from "@/types/cv";
 import { getDateRangeDiff, getDisplayDate } from "@/utils/universal";
 
 interface EducItemProps {
+    index: number;
+    total: number;
     item: EducationItemProps;
 }
 
-export default function EducationItemV2({ item }: EducItemProps) {
+export default function EducationItemV2({ index, total, item }: EducItemProps) {
 
     const displayDateRange = [
         getDisplayDate(item.start_date, item.display_date),
@@ -15,7 +17,7 @@ export default function EducationItemV2({ item }: EducItemProps) {
     const dateDiff = getDateRangeDiff(item.start_date, item.end_date);
 
     return <>
-        <li className="list-row flex gap-2 px-0 py-2 pb-3">
+        <li className={`list-row flex gap-2 px-0 ${index === 0 ? 'pt-0' : 'pt-2'} ${(index + 1) === total ? 'pb-0' : 'pb-3'}`}>
 
             <span className='flex items-start justify-center'>
                 <div className='avatar'>
@@ -23,7 +25,7 @@ export default function EducationItemV2({ item }: EducItemProps) {
                         {item?.logo && item.logo.trim() !== '' ? <>
                             <img src={`/logo/${item.logo}`} />
                         </> : <>
-                            <i className="pi pi-building"></i>
+                            <i className="pi pi-building text-2xl text-base-content/20"></i>
                         </>}
                     </div>
                 </div>

@@ -35,6 +35,7 @@ export interface CertificateItemProps {
     url: string;
     date: string;
     show: boolean;
+    logo?: string;
 }
 
 export interface LinkItem {

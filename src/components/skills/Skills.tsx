@@ -1,6 +1,6 @@
 import { useContext, useEffect } from "react";
 import { AppContext } from "@/context/AppContextProvider";
-import SkillSet from "@/components/SkillSet";
+import SkillSet from "@/components/skills/SkillSet";
 import Card from "@/components/Card";
 import type { MenuItemProps } from "@/hooks/useMenu";
 

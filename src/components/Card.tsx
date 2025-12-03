@@ -8,7 +8,7 @@ export default function Card({ id, title, children }: CardProps) {
     return <>
         <div className="card bg-base-200 w-full shadow" id={id}>
             <div className="card-body p-3">
-                {title && <h2 className="card-title text-primary text-xl">{title}</h2>}
+                {title && <h2 className="card-title text-primary text-xl py-1">{title}</h2>}
                 {children}
             </div>
         </div>
