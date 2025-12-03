@@ -5,7 +5,7 @@ import { COMP_CONTACTS } from '@/components/Contact';
 import { COMP_LINKS } from '@/components/Links';
 import { COMP_INTERESTS } from '@/components/Interests';
 import { COMP_SKILLS } from '@/components/skills/Skills';
-import { COMP_PROFILE } from '@/components/Profile';
+import { COMP_PROFILE } from '@/components/profile/Profile';
 import { COMP_EDUCATION } from '@/components/education/Education';
 import { COMP_BIO } from '@/components/Bio';
 import { COMP_CERTIFICATES } from '@/components/certificate/Certificates';
