@@ -32,12 +32,12 @@ export default function Profile() {
                     <label className="swap swap-flip">
                         <input type="checkbox" />
                         <div className='swap-off avatar'>
-                            <div className='w-50 rounded-full ring ring-primary ring-offset-base-100 ring-offset-3 bg-base-300 overflow-hidden'>
+                            <div className='w-50 rounded-full bg-base-300 overflow-hidden'>
                                 <img src={ProfileImg} alt={data.name} />
                             </div>
                         </div>
                         <div className='swap-on avatar'>
-                            <div className='flex items-center justify-center w-50 rounded-full ring ring-primary ring-offset-base-100 ring-offset-3 bg-white overflow-hidden'>
+                            <div className='w-50 rounded-full bg-white overflow-hidden flex items-center justify-center'>
                                 <img className='w-[65%] h-[65%]' src={QRCode} alt={data.name} />
                             </div>
                         </div>
