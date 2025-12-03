@@ -38,7 +38,7 @@ export default function Profile() {
                         </div>
                         <div className='swap-on avatar'>
                             <div className='w-50 rounded-full bg-white overflow-hidden flex items-center justify-center'>
-                                <img className='w-[65%] h-[65%]' src={QRCode} alt={data.name} />
+                                <img className='w-[50%] h-[50%]' src={QRCode} alt={data.name} />
                             </div>
                         </div>
                     </label>
