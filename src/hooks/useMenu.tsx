@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { COMP_EXPERIENCE } from '@/components/experience/Experience';
 import { COMP_ABOUT } from '@/components/About';
-import { COMP_CONTACTS } from '@/components/Contact';
+import { COMP_CONTACTS } from '@/components/contact/Contact';
 import { COMP_LINKS } from '@/components/Links';
 import { COMP_INTERESTS } from '@/components/Interests';
 import { COMP_SKILLS } from '@/components/skills/Skills';

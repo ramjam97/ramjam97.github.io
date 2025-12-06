@@ -1,5 +1,5 @@
 import About from "@/components/About"
-import Contact from "@/components/Contact"
+import Contact from "@/components/contact/Contact"
 import Links from "@/components/Links"
 import Interests from "@/components/Interests"
 import Profile from "@/components/profile/Profile"
@@ -11,6 +11,7 @@ import Menu from "@/components/Menu"
 import Education from "@/components/education/Education"
 import Bio from "@/components/Bio"
 import Certificates from "@/components/certificate/Certificates"
+import ContactFormModal from "./contact/ContactFormModal"
 
 export default function Layout() {
     return <>
@@ -32,6 +33,7 @@ export default function Layout() {
                 <Certificates />
             </div>
         </div>
+        <ContactFormModal />
         <Footer />
     </>
 }

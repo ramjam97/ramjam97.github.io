@@ -10,12 +10,14 @@ export const COMP_CONTACTS: MenuItemProps = {
 };
 
 export default function Contact() {
-    const { data, setMenuVisibility } = useContext(AppContext);
+    const { data, setMenuVisibility, contactState } = useContext(AppContext);
 
     const phone_numbers = data.phone_numbers || [];
     const emails = data.emails || [];
 
     const hasContent = useMemo(() => phone_numbers.length > 0 || emails.length > 0, [phone_numbers, emails]);
+
+    const { show, setShow } = contactState;
 
     useEffect(() => {
         setMenuVisibility(COMP_CONTACTS.id, hasContent);
@@ -28,6 +30,9 @@ export default function Contact() {
                     {phone_numbers.map((number, index) => <TelItem key={index} number={number} />)}
                     {emails.map((email, index) => <EmailItem key={index} email={email} />)}
                 </div>
+                <button disabled={show} className='btn btn-sm btn-primary' onClick={() => setShow(true)} type='button'>
+                    Contact Form
+                </button>
             </Card>
         }
     </>
