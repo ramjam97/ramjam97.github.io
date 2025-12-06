@@ -26,14 +26,11 @@ export default function ContactForm() {
                 throw new Error(`Message too long. Max ${messageLength} characters.`);
             }
 
-            await emailjs.sendForm(
-                import.meta.env.VITE_EMAIL_SERVICE_ID,
-                import.meta.env.VITE_EMAIL_TEMP_ID,
-                formRef.current,
-                import.meta.env.VITE_EMAIL_PUBLIC_KEY
-            );
+            await emailjs.sendForm('service_e9hprn6', 'template_8zgf2q2', formRef.current, 'R7bSctvANQ3bOpXKG');
+
             formRef.current.reset();
             setEmailSent(true);
+
         } catch (error) {
             console.log(error);
             let msg = 'Failed to send message';
@@ -58,7 +55,6 @@ export default function ContactForm() {
     return <>
         <form ref={formRef} onSubmit={sendEmail} className="flex flex-col gap-4">
             <h2 className="card-title text-primary text-xl">📧 Contact Form</h2>
-
             <div className="flex flex-col gap-3">
 
                 {errMsg && <>
@@ -84,8 +80,6 @@ export default function ContactForm() {
                 </div>
 
             </div>
-
-
         </form>
     </>
 }

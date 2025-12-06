@@ -1,5 +1,5 @@
-import { AppContext } from "@/context/AppContextProvider"
 import { useContext } from "react"
+import { AppContext } from "@/context/AppContextProvider"
 
 export default function EmailSent() {
 

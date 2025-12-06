@@ -36,10 +36,6 @@ jobs:
         run: npm ci
 
       - name: Build Vite app
-        env:
-          VITE_EMAIL_SERVICE_ID: ${{ secrets.VITE_EMAIL_SERVICE_ID }}
-          VITE_EMAIL_TEMP_ID: ${{ secrets.VITE_EMAIL_TEMP_ID }}
-          VITE_EMAIL_PUBLIC_KEY: ${{ secrets.VITE_EMAIL_PUBLIC_KEY }}
         run: npm run build
 
       - name: Upload build artifacts
