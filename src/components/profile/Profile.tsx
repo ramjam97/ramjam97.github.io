@@ -1,7 +1,7 @@
 import { useContext } from 'react'
 import { AppContext } from '@/context/AppContextProvider';
 import Card from '@/components/Card';
-import DownloadButton from '@/components/profile/DownloadButton';
+import DownloadCvButton from '@/components/profile/DownloadCvButton';
 import ProfileImg from '@/assets/profile.jpg';
 import QRCode from '@/assets/qr-link.svg';
 import Badges from '@/components/Badges';
@@ -55,7 +55,7 @@ export default function Profile() {
                 </span>
 
                 <Badges />
-                <DownloadButton />
+                <DownloadCvButton />
 
             </div>
         </Card>
