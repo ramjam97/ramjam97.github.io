@@ -1,3 +1,4 @@
+import { getWeekId } from "@/utils/universal";
 import { useEffect, useState } from "react"
 
 export type ContactFormProps = {
@@ -7,7 +8,7 @@ export type ContactFormProps = {
     setEmailSent: React.Dispatch<React.SetStateAction<boolean>>;
 }
 
-const SENT_EMAIL_KEY = 'email-sent';
+const SENT_EMAIL_KEY = 'email-sent-' + getWeekId();
 
 export default function useContactForm() {
 

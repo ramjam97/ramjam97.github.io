@@ -78,3 +78,23 @@ export function sortArrayObjectByKey(array: any[], key: string, descending: bool
         return 0;
     });
 }
+
+export function getCurrentDateInfo() {
+    const date = new Date();
+
+    const month = date.getMonth() + 1;
+    const day = date.getDate();
+    const year = date.getFullYear();
+
+    const startOfYear = new Date(year, 0, 1);
+    const diffInDays = Math.floor((date.getTime() - startOfYear.getTime()) / (1000 * 60 * 60 * 24));
+
+    const week = Math.ceil((diffInDays + startOfYear.getDay() + 1) / 7);
+
+    return { month, day, year, week };
+}
+
+export function getWeekId() {
+    const date = getCurrentDateInfo();
+    return `${date.year}-${date.week}`;
+}
