@@ -398,5 +398,55 @@
         "id": 80,
         "q": "To understand what recursion is, you must first understand what recursion is.",
         "a": "Unknown"
+    },
+    {
+        "id": 81,
+        "q": "An investment in knowledge pays the best interest.",
+        "a": "Benjamin Franklin"
+    },
+    {
+        "id": 82,
+        "q": "You don't have to see the whole staircase, just take the first step.",
+        "a": "MLK Jr."
+    },
+    {
+        "id": 83,
+        "q": "Life is 10% what happens to you and 90% how you react to it.",
+        "a": "Charles R. Swindoll"
+    },
+    {
+        "id": 84,
+        "q": "It’s only after you’ve stepped outside your comfort zone that you begin to change, grow, and transform.",
+        "a": "Roy T. Bennett"
+    },
+    {
+        "id": 85,
+        "q": "Don't let yesterday take up too much of today.",
+        "a": "Will Rogers"
+    },
+    {
+        "id": 86,
+        "q": "Try not to become a person of success, but rather try to become a person of value.",
+        "a": "Albert Einstein"
+    },
+    {
+        "id": 87,
+        "q": "Instead of learning from other people's success, learn from their mistakes.",
+        "a": "Jack Ma"
+    },
+    {
+        "id": 88,
+        "q": "If you have never tried it, how will you have any change?",
+        "a": "Jack Ma"
+    },
+    {
+        "id": 89,
+        "q": "The secret of getting ahead is getting started.",
+        "a": "Mark Twain"
+    },
+    {
+        "id": 90,
+        "q": "It does not matter how slowly you go as long as you do not stop.",
+        "a": "Confucius"
     }
 ]
