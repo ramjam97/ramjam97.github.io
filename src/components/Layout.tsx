@@ -12,8 +12,14 @@ import Education from "@/components/education/Education"
 import Bio from "@/components/Bio"
 import Certificates from "@/components/certificate/Certificates"
 import ContactFormModal from "./contact/ContactFormModal"
+import ScreenUnavailable from "./ScreenUnavailable"
+
+const isAvailable = true;
 
 export default function Layout() {
+
+    if (isAvailable) return <ScreenUnavailable />
+
     return <>
         <ThemeDrawer />
         <Menu />
