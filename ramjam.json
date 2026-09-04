@@ -1,0 +1,121 @@
+{
+  "personalInfo": {
+    "name": "RAMIL I. JAMOLOD",
+    "email": "ram.jamolod@gmail.com",
+    "phone": "+639513042707",
+    "location": "Lugait, Misamis Oriental, Philippines",
+    "website": "https://ramjam.netlify.app"
+  },
+  "summary": "Experienced Full Stack Developer with expertise in building web and mobile applications using tools like Laravel, React, and React Native. Known for delivering reliable solutions and continuously refining technical skills to meet user needs effectively.",
+  "workExperience": [
+    {
+      "company": "Freelance",
+      "role": "Full Stack Developer",
+      "period": "May 2026 – Present",
+      "location": "Remote / Philippines",
+      "bullets": [
+        "Develop and maintain custom web and mobile applications for personal and freelance projects.",
+        "Developed Crossmath – Polynomial, an interactive application focused on polynomial mathematics and problem-solving.",
+        "Design and develop responsive web portfolio websites tailored to individual and project requirements.",
+        "Build and maintain various software projects, covering frontend development, backend services, databases, and deployment.",
+        "Continuously explore and implement modern technologies and development practices to deliver reliable and user-focused solutions."
+      ]
+    },
+    {
+      "company": "Octal Philippines, Inc.",
+      "role": "PHP Developer",
+      "period": "May 2022 – May 2026",
+      "location": "Tomas Morato Ave, Diliman, Quezon City, Metro Manila, Philippines",
+      "bullets": [
+        "Engineered the Marketing Onboarding Engine, streamlining bulk email sending, achieving a ~30% reduction in processing time.",
+        "Designed and implemented a dynamic web app for tracking and reporting in marketing onboarding, enhancing user engagement and efficiency.",
+        "Developed the Sky Cable Document Portal web app for streamlined uploads, improving ease of access for ~200+ subscribers daily.",
+        "Integrated VTiger with the SkyCRM System, enhancing data synchronization and user interface for significant operational improvements.",
+        "Optimized internal processes using PowerApps and Power Automate, enhancing user experience for clearance forms across multiple regions."
+      ]
+    },
+    {
+      "company": "Drainwiz",
+      "role": "Web Developer",
+      "period": "December 2020 – May 2022",
+      "location": "Echaves St, Dipolog City, Zamboanga del Norte, Philippines",
+      "bullets": [
+        "Designed and implemented a Restaurant Management System, streamlining ordering, inventory, and reporting processes, leading to improved operational efficiency.",
+        "Managed Hostinger servers and multiple websites, ensuring 99.9% uptime through regular maintenance, backups, and security updates.",
+        "Provided training and technical support to clients, enhancing their ability to effectively utilize the system and best practices."
+      ]
+    },
+    {
+      "company": "GOLOG Malaysia",
+      "role": "Full Stack Developer",
+      "period": "February 2020 – June 2020",
+      "location": "Jalan Industri Mas 14, Taman Mas, 47100 Puchong, Selangor, Malaysia",
+      "bullets": [
+        "Developed a Twitter Autoposting Web App, creating a custom algorithm for calculating winners, which improved marketing campaign engagement.",
+        "Contributed to the Cinema Seat Booking Project, enhancing booking efficiency through streamlined backend processes.",
+        "Designed a Web Scraper to automate cinema movie listings updates, increasing data accuracy and availability."
+      ]
+    },
+    {
+      "company": "Department of Public Works and Highways",
+      "role": "Administrative Aide I",
+      "period": "September 2018 – February 2020",
+      "location": "Segabe, Piñan, Zamboanga del Norte, Philippines",
+      "bullets": [
+        "Provided comprehensive administrative support, ensuring accurate document preparation and effective communication across departments.",
+        "Coordinated schedules and correspondence between offices and field personnel, enhancing overall operational efficiency.",
+        "Maintained project logs and records, contributing to improved data accuracy and compliance with departmental requirements."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "school": "Mindanao State University",
+      "degree": "Bachelor of Science in Information Technology",
+      "period": "2014 – 2018",
+      "location": "Naawan, Misamis Oriental, Philippines"
+    }
+  ],
+  "sectionOrder": [
+    "personalInfo",
+    "summary",
+    "workExperience",
+    "education",
+    "skills"
+  ],
+  "skills": [
+    "Laravel",
+    "React",
+    "React Native",
+    "VueJs",
+    "PHP",
+    "JavaScript",
+    "TypeScript",
+    "jQuery",
+    "Full Stack Development",
+    "Python",
+    "Java",
+    "SQL",
+    "MySQL",
+    "PostgreSQL",
+    "DevOps",
+    "Automated Deployment",
+    "Git",
+    "CI/CD"
+  ],
+  "sectionVisibility": {
+    "personalInfo": true,
+    "summary": true,
+    "workExperience": true,
+    "education": true,
+    "skills": true
+  },
+  "fontSizes": {
+    "title": 30,
+    "subtitle": 15,
+    "sectionHeader": 15,
+    "entryText": 15,
+    "listItem": 15,
+    "bullet": 9
+  }
+}
