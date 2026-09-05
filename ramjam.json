@@ -131,5 +131,6 @@
       "lastLine": "Laravel; React; React Native; VueJs; PHP; JavaScript; TypeScript; jQuery; Full Stack Development; Python; Java; SQL; MySQL; PostgreSQL; DevOps; Automated Deployment; Git; CI/CD",
       "nextFirstLine": ""
     }
-  ]
+  ],
+  "showDiagnostic": false
 }
