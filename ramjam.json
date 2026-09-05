@@ -117,5 +117,19 @@
     "entryText": 15,
     "listItem": 15,
     "bullet": 9
-  }
+  },
+  "pageBreaks": [
+    {
+      "start": 0,
+      "end": 945.9493530273437,
+      "lastLine": "Designed a Web Scraper to automate cinema movie listings updates, increasing data accuracy and availability.",
+      "nextFirstLine": "Department of Public Works and Highways"
+    },
+    {
+      "start": 955.9320190429687,
+      "end": 1251.8347900390625,
+      "lastLine": "Laravel; React; React Native; VueJs; PHP; JavaScript; TypeScript; jQuery; Full Stack Development; Python; Java; SQL; MySQL; PostgreSQL; DevOps; Automated Deployment; Git; CI/CD",
+      "nextFirstLine": ""
+    }
+  ]
 }
