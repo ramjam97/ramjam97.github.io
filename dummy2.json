@@ -1,0 +1,136 @@
+{
+  "personalInfo": {
+    "name": "John A. Does",
+    "email": "jane.doe@email.com",
+    "phone": "+1 (555) 123-4567",
+    "location": "San Francisco, CA, USA",
+    "website": "https://janedoe.dev"
+  },
+  "summary": "Creative and detail-oriented Software Engineer with 5+ years of experience building scalable web applications. Passionate about clean code, user-centric design, and delivering high-quality products on time. Test 123",
+  "workExperience": [
+    {
+      "company": "TechCorp Inc.",
+      "role": "Senior Software Engineer",
+      "period": "Jan 2023 – Present",
+      "location": "San Francisco, CA",
+      "bullets": [
+        "Led the migration of a monolithic application to a microservices architecture, reducing deployment times by 40%.",
+        "Designed and implemented a real-time notification system using WebSockets, improving user engagement by 25%.",
+        "Mentored a team of 4 junior developers through code reviews and pair programming sessions.",
+        "Architected and built a scalable API gateway handling 10M+ requests daily with 99.99% uptime.",
+        "Spearheaded the adoption of TypeScript across the organization, reducing production bugs by 35%.",
+        "Led quarterly security audits and implemented OWASP best practices, achieving SOC 2 compliance."
+      ]
+    },
+    {
+      "company": "StartupXYZ",
+      "role": "Full Stack Developer",
+      "period": "Jun 2020 – Dec 2022",
+      "location": "Austin, TX",
+      "bullets": [
+        "Built and launched an e-commerce platform serving 10,000+ monthly active users.",
+        "Optimized database queries resulting in a 60% reduction in page load times.",
+        "Implemented CI/CD pipelines using GitHub Actions, automating the release process.",
+        "Integrated Stripe payment processing, handling $2M+ in annual transactions securely.",
+        "Developed a custom admin dashboard enabling non-technical staff to manage content independently.",
+        "Conducted performance testing and optimization, achieving a Lighthouse score of 95+."
+      ]
+    },
+    {
+      "company": "WebAgency Co.",
+      "role": "Junior Developer",
+      "period": "Aug 2018 – May 2020",
+      "location": "Austin, TX",
+      "bullets": [
+        "Developed responsive websites for 20+ clients using React and Next.js.",
+        "Collaborated with designers to translate Figma mockups into pixel-perfect interfaces.",
+        "Maintained and updated WordPress sites, ensuring 99.9% uptime.",
+        "Implemented A/B testing frameworks that increased client conversion rates by an average of 18%.",
+        "Created reusable component libraries that reduced development time for new projects by 25%.",
+        "Participated in agile ceremonies and contributed to sprint planning and retrospectives."
+      ]
+    },
+    {
+      "company": "DataFlow Systems",
+      "role": "Data Engineer",
+      "period": "Mar 2017 – Jul 2018",
+      "location": "Dallas, TX",
+      "bullets": [
+        "Designed and maintained ETL pipelines processing 5M+ records daily using Apache Spark.",
+        "Built automated data quality checks reducing data inconsistencies by 75%.",
+        "Collaborated with data science team to deploy ML models into production.",
+        "Optimized Spark job performance, reducing processing time from 4 hours to 45 minutes.",
+        "Implemented data retention policies compliant with GDPR and CCPA regulations.",
+        "Built data visualization dashboards using Tableau for business stakeholders."
+      ]
+    },
+    {
+      "company": "CloudNine Solutions",
+      "role": "DevOps Intern",
+      "period": "Jun 2016 – Feb 2017",
+      "location": "Dallas, TX",
+      "bullets": [
+        "Assisted in migrating on-premise infrastructure to AWS, reducing costs by 30%."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "school": "University of Texas at Austin",
+      "degree": "Bachelor of Science in Computer Science",
+      "period": "2014 – 2018",
+      "location": "Austin, TX"
+    },
+    {
+      "school": "Stanford University",
+      "degree": "Master of Science in Computer Science (Part-time)",
+      "period": "2019 – 2021",
+      "location": "Stanford, CA"
+    },
+    {
+      "school": "Coursera",
+      "degree": "Professional Certificate in Cloud Architecture (AWS)",
+      "period": "2022",
+      "location": "Online"
+    }
+  ],
+  "sectionOrder": [
+    "personalInfo",
+    "summary",
+    "workExperience",
+    "education",
+    "skills"
+  ],
+  "skills": [
+    "JavaScript",
+    "TypeScript",
+    "React",
+    "Next.js",
+    "Node.js",
+    "Python",
+    "PostgreSQL",
+    "MongoDB",
+    "Docker",
+    "AWS",
+    "Git",
+    "CI/CD",
+    "REST APIs",
+    "GraphQL"
+  ],
+  "sectionVisibility": {
+    "personalInfo": true,
+    "summary": true,
+    "workExperience": true,
+    "education": true,
+    "skills": true
+  },
+  "fontSizes": {
+    "title": 30,
+    "subtitle": 15,
+    "sectionHeader": 15,
+    "entryText": 15,
+    "listItem": 15,
+    "bullet": 9
+  },
+  "showDiagnostic": false
+}
