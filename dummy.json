@@ -99,6 +99,7 @@
       "location": "Online"
     }
   ],
+  "template": "cv",
   "sectionOrder": [
     "personalInfo",
     "summary",
@@ -136,5 +137,6 @@
     "entryText": 15,
     "listItem": 15,
     "bullet": 9
-  }
+  },
+  "showDiagnostic": false
 }
