@@ -1,6 +1,6 @@
 {
   "personalInfo": {
-    "name": "RAMIL I. JAMOLOD",
+    "name": "RAM I. JAMOLOD",
     "email": "ram.jamolod@gmail.com",
     "phone": "+639513042707",
     "location": "Lugait, Misamis Oriental, Philippines",
@@ -111,7 +111,7 @@
     "skills": true
   },
   "fontSizes": {
-    "title": 30,
+    "title": 33,
     "subtitle": 15,
     "sectionHeader": 15,
     "entryText": 15,
@@ -121,16 +121,17 @@
   "pageBreaks": [
     {
       "start": 0,
-      "end": 945.9493530273437,
+      "end": 949.784375,
       "lastLine": "Designed a Web Scraper to automate cinema movie listings updates, increasing data accuracy and availability.",
       "nextFirstLine": "Department of Public Works and Highways"
     },
     {
-      "start": 955.9320190429687,
-      "end": 1251.8347900390625,
+      "start": 960.034375,
+      "end": 1255.534375,
       "lastLine": "Laravel; React; React Native; VueJs; PHP; JavaScript; TypeScript; jQuery; Full Stack Development; Python; Java; SQL; MySQL; PostgreSQL; DevOps; Automated Deployment; Git; CI/CD",
       "nextFirstLine": ""
     }
   ],
-  "showDiagnostic": false
+  "showDiagnostic": false,
+  "theme": "dark"
 }
