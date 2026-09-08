@@ -1,6 +1,6 @@
 {
   "personalInfo": {
-    "name": "JAMOLOD, RAMIL I. ",
+    "name": "RAMIL I. JAMOLOD ",
     "contact": [
       {
         "icon": "✉",
@@ -153,25 +153,25 @@
         "skills": true
       },
       "fontSizes": {
-        "title": 30,
-        "subtitle": 16,
-        "sectionHeader": 16,
-        "entryText": 16,
-        "listItem": 16,
+        "title": 35,
+        "subtitle": 15,
+        "sectionHeader": 15,
+        "entryText": 15,
+        "listItem": 15,
         "bullet": 11
       },
       "showDiagnostic": false,
       "pageBreaks": [
         {
           "start": 0,
-          "end": 940.08125,
-          "lastLine": "Jalan Industri Mas 14, Taman Mas, 47100 Puchong, Selangor, Malaysia",
-          "nextFirstLine": "Developed a Twitter Autoposting Web App, creating a custom algorithm for calculating winners, which improved marketing campaign engagement."
+          "end": 952.4875,
+          "lastLine": "Designed a Web Scraper to automate cinema movie listings updates, increasing data accuracy and availability.",
+          "nextFirstLine": "Department of Public Works and Highways"
         },
         {
-          "start": 941.471875,
-          "end": 1436.3625,
-          "lastLine": "Git; CI/CD; DevOps; Automated Deployment",
+          "start": 962.7375,
+          "end": 1300.2375,
+          "lastLine": "DevOps & Tools:",
           "nextFirstLine": ""
         }
       ],
