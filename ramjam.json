@@ -175,7 +175,10 @@
           "nextFirstLine": ""
         }
       ],
-      "showInspectAreas": false
+      "showInspectAreas": false,
+      "manualBreaks": [
+        1027.4875
+      ]
     },
     "modern": {
       "pageBreaks": [
@@ -216,7 +219,11 @@
         "listItem": 15,
         "bullet": 9
       },
-      "showDiagnostic": false
+      "showDiagnostic": false,
+      "manualBreaks": [
+        986.4875
+      ],
+      "showInspectAreas": false
     }
   }
 }
