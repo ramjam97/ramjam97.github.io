@@ -1,10 +1,12 @@
 {
   "personalInfo": {
-    "name": "JAMOLOD, RAMIL I.",
-    "email": "ram.jamolod@gmail.com",
-    "phone": "+639513042707",
-    "location": "Lugait, Misamis Oriental, Philippines",
-    "website": "https://ramjam.netlify.app"
+    "name": "RAMIL I. JAMOLOD",
+    "contact": [
+      { "icon": "✉", "text": "ram.jamolod@gmail.com", "type": "email" },
+      { "icon": "☎", "text": "+639513042707", "type": "phone" },
+      { "icon": "📍", "text": "Lugait, Misamis Oriental, Philippines", "type": "location" },
+      { "icon": "🔗", "text": "https://ramjam.netlify.app", "type": "website" }
+    ]
   },
   "summary": "Experienced Full Stack Developer with expertise in building web and mobile applications using tools like Laravel, React, and React Native. Known for delivering reliable solutions and continuously refining technical skills to meet user needs effectively.",
   "workExperience": [
@@ -77,29 +79,29 @@
     }
   ],
   "skills": [
-    "Laravel",
-    "React",
-    "React Native",
-    "VueJs",
-    "PHP",
-    "JavaScript",
-    "TypeScript",
-    "jQuery",
-    "Full Stack Development",
-    "Python",
-    "Java",
-    "SQL",
-    "MySQL",
-    "PostgreSQL",
-    "DevOps",
-    "Automated Deployment",
-    "Git",
-    "CI/CD"
+    {
+      "title": "Frontend",
+      "set": ["React", "React Native", "VueJs", "jQuery"]
+    },
+    {
+      "title": "Languages",
+      "set": ["PHP", "JavaScript", "TypeScript", "Python", "Java"]
+    },
+    {
+      "title": "Backend & Databases",
+      "set": ["Laravel", "SQL", "MySQL", "PostgreSQL"]
+    },
+    {
+      "title": "DevOps & Tools",
+      "set": ["Git", "CI/CD", "DevOps", "Automated Deployment"]
+    }
   ],
+  "template": "cv",
   "configs": {
     "cv": {
       "sectionOrder": [
         "personalInfo",
+        "contact",
         "summary",
         "workExperience",
         "education",
@@ -107,46 +109,7 @@
       ],
       "sectionVisibility": {
         "personalInfo": true,
-        "summary": true,
-        "workExperience": true,
-        "education": true,
-        "skills": true
-      },
-      "fontSizes": {
-        "title": 33,
-        "subtitle": 15,
-        "sectionHeader": 15,
-        "entryText": 15,
-        "listItem": 15,
-        "bullet": 12
-      },
-      "pageBreaks": [
-        {
-          "start": 0,
-          "end": 949.784375,
-          "lastLine": "Designed a Web Scraper to automate cinema movie listings updates, increasing data accuracy and availability.",
-          "nextFirstLine": "Department of Public Works and Highways"
-        },
-        {
-          "start": 960.034375,
-          "end": 1255.534375,
-          "lastLine": "Laravel; React; React Native; VueJs; PHP; JavaScript; TypeScript; jQuery; Full Stack Development; Python; Java; SQL; MySQL; PostgreSQL; DevOps; Automated Deployment; Git; CI/CD",
-          "nextFirstLine": ""
-        }
-      ],
-      "showDiagnostic": false,
-      "theme": "dark"
-    },
-    "modern": {
-      "sectionOrder": [
-        "personalInfo",
-        "summary",
-        "workExperience",
-        "education",
-        "skills"
-      ],
-      "sectionVisibility": {
-        "personalInfo": true,
+        "contact": true,
         "summary": true,
         "workExperience": true,
         "education": true,
@@ -160,22 +123,7 @@
         "listItem": 15,
         "bullet": 9
       },
-      "showDiagnostic": false,
-      "pageBreaks": [
-        {
-          "start": 0,
-          "end": 966.8625,
-          "lastLine": "Developed a Twitter Autoposting Web App, creating a custom algorithm for calculating winners, which improved marketing campaign engagement.",
-          "nextFirstLine": "Contributed to the Cinema Seat Booking Project, enhancing booking efficiency through streamlined backend processes."
-        },
-        {
-          "start": 969.05,
-          "end": 1410.6125,
-          "lastLine": "Automated Deployment",
-          "nextFirstLine": ""
-        }
-      ]
+      "showDiagnostic": false
     }
-  },
-  "template": "cv"
+  }
 }
