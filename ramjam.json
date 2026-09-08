@@ -2,10 +2,26 @@
   "personalInfo": {
     "name": "RAMIL I. JAMOLOD",
     "contact": [
-      { "icon": "✉", "text": "ram.jamolod@gmail.com", "type": "email" },
-      { "icon": "☎", "text": "+639513042707", "type": "phone" },
-      { "icon": "📍", "text": "Lugait, Misamis Oriental, Philippines", "type": "location" },
-      { "icon": "🔗", "text": "https://ramjam.netlify.app", "type": "website" }
+      {
+        "icon": "✉",
+        "text": "ram.jamolod@gmail.com",
+        "type": "email"
+      },
+      {
+        "icon": "☎",
+        "text": "+639513042707",
+        "type": "phone"
+      },
+      {
+        "icon": "📍",
+        "text": "Lugait, Misamis Oriental, Philippines",
+        "type": "location"
+      },
+      {
+        "icon": "🔗",
+        "text": "https://ramjam.netlify.app",
+        "type": "website"
+      }
     ]
   },
   "summary": "Experienced Full Stack Developer with expertise in building web and mobile applications using tools like Laravel, React, and React Native. Known for delivering reliable solutions and continuously refining technical skills to meet user needs effectively.",
@@ -81,24 +97,101 @@
   "skills": [
     {
       "title": "Frontend",
-      "set": ["React", "React Native", "VueJs", "jQuery"]
+      "set": [
+        "React",
+        "React Native",
+        "VueJs",
+        "jQuery"
+      ]
     },
     {
       "title": "Languages",
-      "set": ["PHP", "JavaScript", "TypeScript", "Python", "Java"]
+      "set": [
+        "PHP",
+        "JavaScript",
+        "TypeScript",
+        "Python",
+        "Java"
+      ]
     },
     {
       "title": "Backend & Databases",
-      "set": ["Laravel", "SQL", "MySQL", "PostgreSQL"]
+      "set": [
+        "Laravel",
+        "SQL",
+        "MySQL",
+        "PostgreSQL"
+      ]
     },
     {
       "title": "DevOps & Tools",
-      "set": ["Git", "CI/CD", "DevOps", "Automated Deployment"]
+      "set": [
+        "Git",
+        "CI/CD",
+        "DevOps",
+        "Automated Deployment"
+      ]
     }
   ],
   "template": "cv",
   "configs": {
     "cv": {
+      "sectionOrder": [
+        "personalInfo",
+        "contact",
+        "summary",
+        "workExperience",
+        "education",
+        "skills"
+      ],
+      "sectionVisibility": {
+        "personalInfo": true,
+        "contact": true,
+        "summary": true,
+        "workExperience": true,
+        "education": true,
+        "skills": true
+      },
+      "fontSizes": {
+        "title": 30,
+        "subtitle": 16,
+        "sectionHeader": 16,
+        "entryText": 16,
+        "listItem": 16,
+        "bullet": 11
+      },
+      "showDiagnostic": false,
+      "pageBreaks": [
+        {
+          "start": 0,
+          "end": 940.08125,
+          "lastLine": "Jalan Industri Mas 14, Taman Mas, 47100 Puchong, Selangor, Malaysia",
+          "nextFirstLine": "Developed a Twitter Autoposting Web App, creating a custom algorithm for calculating winners, which improved marketing campaign engagement."
+        },
+        {
+          "start": 941.471875,
+          "end": 1436.3625,
+          "lastLine": "Git; CI/CD; DevOps; Automated Deployment",
+          "nextFirstLine": ""
+        }
+      ],
+      "showInspectAreas": false
+    },
+    "modern": {
+      "pageBreaks": [
+        {
+          "start": 0,
+          "end": 961.940625,
+          "lastLine": "Contributed to the Cinema Seat Booking Project, enhancing booking efficiency through streamlined backend processes.",
+          "nextFirstLine": "Designed a Web Scraper to automate cinema movie listings updates, increasing data accuracy and availability."
+        },
+        {
+          "start": 964.83125,
+          "end": 1517.31875,
+          "lastLine": "Git",
+          "nextFirstLine": ""
+        }
+      ],
       "sectionOrder": [
         "personalInfo",
         "contact",
