@@ -1,6 +1,6 @@
 {
   "personalInfo": {
-    "name": "RAMIL I. JAMOLOD ",
+    "name": "RAM I. JAMOLOD ",
     "contact": [
       {
         "icon": "✉",
@@ -177,7 +177,7 @@
       ],
       "showInspectAreas": false,
       "manualBreaks": [
-        1027.4875
+        1026.11968503937
       ]
     },
     "modern": {
@@ -221,7 +221,7 @@
       },
       "showDiagnostic": false,
       "manualBreaks": [
-        986.4875
+        988.4875
       ],
       "showInspectAreas": false
     }
