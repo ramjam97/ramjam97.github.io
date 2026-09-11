@@ -1,28 +1,46 @@
 {
   "personalInfo": {
-    "name": "RAM I. JAMOLOD ",
+    "name": "RAMIL I. JAMOLOD ",
     "contact": [
       {
+        "id": "rj-email",
         "icon": "✉",
         "text": "ram.jamolod@gmail.com",
         "type": "email"
       },
       {
-        "icon": "☎",
-        "text": "+639513042707",
-        "type": "phone"
-      },
-      {
+        "id": "rj-loc",
         "icon": "📍",
         "text": "Lugait, Misamis Oriental, Philippines",
         "type": "location"
       },
       {
+        "id": "rj-phone",
+        "icon": "☎",
+        "text": "+639513042707",
+        "type": "phone"
+      },
+      {
+        "id": "rj-web",
         "icon": "🔗",
-        "text": "https://ramjam.netlify.app",
+        "text": "ramjam.netlify.app",
         "type": "website"
+      },
+      {
+        "id": "rj-gh",
+        "icon": "",
+        "text": "github.com/ramjam9",
+        "type": "github"
+      },
+      {
+        "id": "rj-li",
+        "icon": "",
+        "text": "linkedin.com/in/ram-jamolod",
+        "type": "linkedin"
       }
-    ]
+    ],
+    "photo": "https://avatars.githubusercontent.com/u/60874051",
+    "title": "FULL STACK DEVELOPER"
   },
   "summary": "Experienced Full Stack Developer with expertise in building web and mobile applications using tools like Laravel, React, and React Native. Known for delivering reliable solutions and continuously refining technical skills to meet user needs effectively.",
   "workExperience": [
@@ -133,7 +151,7 @@
       ]
     }
   ],
-  "template": "cv",
+  "template": "modern",
   "configs": {
     "cv": {
       "sectionOrder": [
@@ -177,20 +195,41 @@
       ],
       "showInspectAreas": false,
       "manualBreaks": [
-        1026.11968503937
+        1025.008570537417
+      ],
+      "photoSize": 110,
+      "photoBorderRadius": 20,
+      "marginTop": 0,
+      "marginBottom": 0,
+      "paddingTop": 0,
+      "paddingBottom": 0,
+      "contactPaddingTop": 10,
+      "contactPaddingBottom": 10,
+      "contactMarginTop": 10,
+      "contactMarginBottom": 10,
+      "contactColumns": 4,
+      "contactAlign": "center",
+      "fontFamily": "rajdhani",
+      "contactOrder": [
+        "rj-email",
+        "rj-loc",
+        "rj-phone",
+        "rj-web",
+        "rj-gh",
+        "rj-li"
       ]
     },
     "modern": {
       "pageBreaks": [
         {
           "start": 0,
-          "end": 961.940625,
+          "end": 979.01875,
           "lastLine": "Contributed to the Cinema Seat Booking Project, enhancing booking efficiency through streamlined backend processes.",
           "nextFirstLine": "Designed a Web Scraper to automate cinema movie listings updates, increasing data accuracy and availability."
         },
         {
-          "start": 964.83125,
-          "end": 1517.31875,
+          "start": 980.846875,
+          "end": 1497.584375,
           "lastLine": "Git",
           "nextFirstLine": ""
         }
@@ -212,18 +251,40 @@
         "skills": true
       },
       "fontSizes": {
-        "title": 30,
-        "subtitle": 15,
-        "sectionHeader": 15,
-        "entryText": 15,
-        "listItem": 15,
-        "bullet": 9
+        "title": 25,
+        "subtitle": 16,
+        "sectionHeader": 16,
+        "entryText": 16,
+        "listItem": 16,
+        "bullet": 15
       },
       "showDiagnostic": false,
       "manualBreaks": [
-        988.4875
+        1011.6752880667138,
+        2041.1282860943652
       ],
-      "showInspectAreas": false
+      "showInspectAreas": false,
+      "photoSize": 126,
+      "photoBorderRadius": 9,
+      "marginTop": 0,
+      "marginBottom": 0,
+      "paddingTop": 0,
+      "paddingBottom": 0,
+      "contactPaddingTop": 10,
+      "contactPaddingBottom": 10,
+      "contactMarginTop": 10,
+      "contactMarginBottom": 10,
+      "contactColumns": 2,
+      "contactAlign": "left",
+      "fontFamily": "inter",
+      "contactOrder": [
+        "rj-email",
+        "rj-loc",
+        "rj-phone",
+        "rj-web",
+        "rj-gh",
+        "rj-li"
+      ]
     }
   }
 }
