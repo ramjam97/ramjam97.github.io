@@ -1,47 +1,45 @@
 {
-  "personalInfo": {
-    "name": "RAMIL I. JAMOLOD ",
-    "contact": [
-      {
-        "id": "rj-email",
-        "icon": "✉",
-        "text": "ram.jamolod@gmail.com",
-        "type": "email"
-      },
-      {
-        "id": "rj-loc",
-        "icon": "📍",
-        "text": "Lugait, Misamis Oriental, Philippines",
-        "type": "location"
-      },
-      {
-        "id": "rj-phone",
-        "icon": "☎",
-        "text": "+639513042707",
-        "type": "phone"
-      },
-      {
-        "id": "rj-web",
-        "icon": "🔗",
-        "text": "ramjam.netlify.app",
-        "type": "website"
-      },
-      {
-        "id": "rj-gh",
-        "icon": "",
-        "text": "github.com/ramjam9",
-        "type": "github"
-      },
-      {
-        "id": "rj-li",
-        "icon": "",
-        "text": "linkedin.com/in/ram-jamolod",
-        "type": "linkedin"
-      }
-    ],
-    "photo": "https://avatars.githubusercontent.com/u/60874051",
-    "title": "FULL STACK DEVELOPER"
-  },
+  "name": "RAMIL I. JAMOLOD ",
+  "title": "FULL STACK DEVELOPER",
+  "photo": "https://avatars.githubusercontent.com/u/60874051",
+  "contacts": [
+    {
+      "id": "rj-email",
+      "icon": "✉",
+      "text": "ram.jamolod@gmail.com",
+      "type": "email"
+    },
+    {
+      "id": "rj-loc",
+      "icon": "📍",
+      "text": "Lugait, Misamis Oriental, Philippines",
+      "type": "location"
+    },
+    {
+      "id": "rj-phone",
+      "icon": "☎",
+      "text": "+639513042707",
+      "type": "phone"
+    },
+    {
+      "id": "rj-web",
+      "icon": "🔗",
+      "text": "ramjam.netlify.app",
+      "type": "website"
+    },
+    {
+      "id": "rj-gh",
+      "icon": "",
+      "text": "github.com/ramjam9",
+      "type": "github"
+    },
+    {
+      "id": "rj-li",
+      "icon": "",
+      "text": "linkedin.com/in/ram-jamolod",
+      "type": "linkedin"
+    }
+  ],
   "summary": "Experienced Full Stack Developer with expertise in building web and mobile applications using tools like Laravel, React, and React Native. Known for delivering reliable solutions and continuously refining technical skills to meet user needs effectively.",
   "workExperience": [
     {
