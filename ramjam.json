@@ -110,6 +110,7 @@
       "location": "Naawan, Misamis Oriental, Philippines"
     }
   ],
+  "template": "modern",
   "skills": [
     {
       "title": "Frontend",
@@ -149,7 +150,6 @@
       ]
     }
   ],
-  "template": "modern",
   "configs": {
     "cv": {
       "sectionOrder": [
@@ -160,43 +160,38 @@
         "education",
         "skills"
       ],
-      "sectionVisibility": {
-        "personalInfo": true,
-        "contact": true,
-        "summary": true,
-        "workExperience": true,
-        "education": true,
-        "skills": true
+      "sectionHidden": {
+        "personalInfo": false,
+        "contact": false,
+        "summary": false,
+        "workExperience": false,
+        "education": false,
+        "skills": false
       },
       "fontSizes": {
-        "title": 35,
+        "title": 30,
         "subtitle": 15,
         "sectionHeader": 15,
         "entryText": 15,
         "listItem": 15,
-        "bullet": 11
+        "bullet": 9
       },
-      "showDiagnostic": false,
-      "pageBreaks": [
-        {
-          "start": 0,
-          "end": 952.4875,
-          "lastLine": "Designed a Web Scraper to automate cinema movie listings updates, increasing data accuracy and availability.",
-          "nextFirstLine": "Department of Public Works and Highways"
-        },
-        {
-          "start": 962.7375,
-          "end": 1300.2375,
-          "lastLine": "DevOps & Tools:",
-          "nextFirstLine": ""
-        }
+      "fontFamily": "garamond",
+      "contactOrder": [
+        "rj-email",
+        "rj-loc",
+        "rj-phone",
+        "rj-web",
+        "rj-gh",
+        "rj-li"
+      ],
+      "manualBreaks": [
+        null,
+        1828.0327423095703
       ],
       "showInspectAreas": false,
-      "manualBreaks": [
-        1025.008570537417
-      ],
-      "photoSize": 110,
-      "photoBorderRadius": 20,
+      "photoSize": 138,
+      "photoBorderRadius": 14,
       "marginTop": 0,
       "marginBottom": 0,
       "paddingTop": 0,
@@ -207,31 +202,15 @@
       "contactMarginBottom": 10,
       "contactColumns": 4,
       "contactAlign": "center",
-      "fontFamily": "rajdhani",
-      "contactOrder": [
-        "rj-email",
-        "rj-loc",
-        "rj-phone",
-        "rj-web",
-        "rj-gh",
-        "rj-li"
-      ]
+      "pageBg": "#ffffff",
+      "pageFg": "#2d2d2d",
+      "contactBg": "#1a6b3c",
+      "contactFg": "#ffffff",
+      "titleColor": "#1a6b3c",
+      "subtitleColor": "#2a8a50",
+      "sectionHeaderColor": "#1a6b3c"
     },
     "modern": {
-      "pageBreaks": [
-        {
-          "start": 0,
-          "end": 979.01875,
-          "lastLine": "Contributed to the Cinema Seat Booking Project, enhancing booking efficiency through streamlined backend processes.",
-          "nextFirstLine": "Designed a Web Scraper to automate cinema movie listings updates, increasing data accuracy and availability."
-        },
-        {
-          "start": 980.846875,
-          "end": 1497.584375,
-          "lastLine": "Git",
-          "nextFirstLine": ""
-        }
-      ],
       "sectionOrder": [
         "personalInfo",
         "contact",
@@ -240,30 +219,38 @@
         "education",
         "skills"
       ],
-      "sectionVisibility": {
-        "personalInfo": true,
-        "contact": true,
-        "summary": true,
-        "workExperience": true,
-        "education": true,
-        "skills": true
+      "sectionHidden": {
+        "personalInfo": false,
+        "contact": false,
+        "summary": false,
+        "workExperience": false,
+        "education": false,
+        "skills": false
       },
       "fontSizes": {
-        "title": 25,
-        "subtitle": 16,
-        "sectionHeader": 16,
-        "entryText": 16,
-        "listItem": 16,
-        "bullet": 15
+        "title": 30,
+        "subtitle": 15,
+        "sectionHeader": 15,
+        "entryText": 15,
+        "listItem": 15,
+        "bullet": 9
       },
-      "showDiagnostic": false,
+      "fontFamily": "rajdhani",
+      "contactOrder": [
+        "rj-web",
+        "rj-gh",
+        "rj-email",
+        "rj-phone",
+        "rj-loc",
+        "rj-li"
+      ],
       "manualBreaks": [
-        1011.6752880667138,
-        2041.1282860943652
+        1015.008585796206,
+        1645.5153358459472
       ],
       "showInspectAreas": false,
-      "photoSize": 126,
-      "photoBorderRadius": 9,
+      "photoSize": 138,
+      "photoBorderRadius": 14,
       "marginTop": 0,
       "marginBottom": 0,
       "paddingTop": 0,
@@ -272,17 +259,18 @@
       "contactPaddingBottom": 10,
       "contactMarginTop": 10,
       "contactMarginBottom": 10,
-      "contactColumns": 2,
+      "contactColumns": 4,
       "contactAlign": "left",
-      "fontFamily": "inter",
-      "contactOrder": [
-        "rj-email",
-        "rj-loc",
-        "rj-phone",
-        "rj-web",
-        "rj-gh",
-        "rj-li"
-      ]
+      "pageBg": "#ffffff",
+      "pageFg": "#2d2d2d",
+      "contactBg": "#1a6b3c",
+      "contactFg": "#ffffff",
+      "titleColor": "#1a6b3c",
+      "subtitleColor": "#2a8a50",
+      "sectionHeaderColor": "#1a6b3c",
+      "entryTextColor": "#1a1a1a",
+      "listItemColor": "#555555",
+      "bulletColor": "#1a6b3c"
     }
   }
 }
