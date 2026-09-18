@@ -1,41 +1,35 @@
 {
   "name": "RAMIL I. JAMOLOD ",
   "title": "FULL STACK DEVELOPER",
-  "photo": "https://avatars.githubusercontent.com/u/60874051",
+  "photo": "https://raw.githubusercontent.com/ramjam97/ramjam97.github.io/refs/heads/master/public/profile.png",
   "contacts": [
     {
       "id": "rj-email",
-      "icon": "✉",
       "text": "ram.jamolod@gmail.com",
       "type": "email"
     },
     {
       "id": "rj-loc",
-      "icon": "📍",
       "text": "Lugait, Misamis Oriental, Philippines",
       "type": "location"
     },
     {
       "id": "rj-phone",
-      "icon": "☎",
       "text": "+639513042707",
       "type": "phone"
     },
     {
       "id": "rj-web",
-      "icon": "🔗",
       "text": "ramjam.netlify.app",
       "type": "website"
     },
     {
       "id": "rj-gh",
-      "icon": "",
-      "text": "github.com/ramjam9",
+      "text": "github.com/ramjam97",
       "type": "github"
     },
     {
       "id": "rj-li",
-      "icon": "",
       "text": "linkedin.com/in/ram-jamolod",
       "type": "linkedin"
     }
@@ -47,12 +41,22 @@
       "role": "Full Stack Developer",
       "period": "May 2026 – Present",
       "location": "Remote / Philippines",
-      "bullets": [
-        "Develop and maintain custom web and mobile applications for personal and freelance projects.",
-        "Developed Crossmath – Polynomial, an interactive application focused on polynomial mathematics and problem-solving.",
-        "Design and develop responsive web portfolio websites tailored to individual and project requirements.",
-        "Build and maintain various software projects, covering frontend development, backend services, databases, and deployment.",
-        "Continuously explore and implement modern technologies and development practices to deliver reliable and user-focused solutions."
+      "bulletGroups": [
+        {
+          "title": "Key Achievements",
+          "bullets": [
+            "Developed Crossmath – Polynomial, an interactive application focused on polynomial mathematics and problem-solving.",
+            "Design and develop responsive web portfolio websites tailored to individual and project requirements."
+          ]
+        },
+        {
+          "title": "Responsibilities",
+          "bullets": [
+            "Develop and maintain custom web and mobile applications for personal and freelance projects.",
+            "Build and maintain various software projects, covering frontend development, backend services, databases, and deployment.",
+            "Continuously explore and implement modern technologies and development practices to deliver reliable and user-focused solutions."
+          ]
+        }
       ]
     },
     {
@@ -60,12 +64,22 @@
       "role": "PHP Developer",
       "period": "May 2022 – May 2026",
       "location": "Tomas Morato Ave, Diliman, Quezon City, Metro Manila, Philippines",
-      "bullets": [
-        "Engineered the Marketing Onboarding Engine, streamlining bulk email sending, achieving a ~30% reduction in processing time.",
-        "Designed and implemented a dynamic web app for tracking and reporting in marketing onboarding, enhancing user engagement and efficiency.",
-        "Developed the Sky Cable Document Portal web app for streamlined uploads, improving ease of access for ~200+ subscribers daily.",
-        "Integrated VTiger with the SkyCRM System, enhancing data synchronization and user interface for significant operational improvements.",
-        "Optimized internal processes using PowerApps and Power Automate, enhancing user experience for clearance forms across multiple regions."
+      "bulletGroups": [
+        {
+          "title": "Key Achievements",
+          "bullets": [
+            "Engineered the Marketing Onboarding Engine, streamlining bulk email sending, achieving a ~30% reduction in processing time.",
+            "Developed the Sky Cable Document Portal web app for streamlined uploads, improving ease of access for ~200+ subscribers daily."
+          ]
+        },
+        {
+          "title": "Responsibilities",
+          "bullets": [
+            "Designed and implemented a dynamic web app for tracking and reporting in marketing onboarding, enhancing user engagement and efficiency.",
+            "Integrated VTiger with the SkyCRM System, enhancing data synchronization and user interface for significant operational improvements.",
+            "Optimized internal processes using PowerApps and Power Automate, enhancing user experience for clearance forms across multiple regions."
+          ]
+        }
       ]
     },
     {
@@ -73,10 +87,20 @@
       "role": "Web Developer",
       "period": "December 2020 – May 2022",
       "location": "Echaves St, Dipolog City, Zamboanga del Norte, Philippines",
-      "bullets": [
-        "Designed and implemented a Restaurant Management System, streamlining ordering, inventory, and reporting processes, leading to improved operational efficiency.",
-        "Managed Hostinger servers and multiple websites, ensuring 99.9% uptime through regular maintenance, backups, and security updates.",
-        "Provided training and technical support to clients, enhancing their ability to effectively utilize the system and best practices."
+      "bulletGroups": [
+        {
+          "title": "Projects",
+          "bullets": [
+            "Designed and implemented a Restaurant Management System, streamlining ordering, inventory, and reporting processes, leading to improved operational efficiency."
+          ]
+        },
+        {
+          "title": "Responsibilities",
+          "bullets": [
+            "Managed Hostinger servers and multiple websites, ensuring 99.9% uptime through regular maintenance, backups, and security updates.",
+            "Provided training and technical support to clients, enhancing their ability to effectively utilize the system and best practices."
+          ]
+        }
       ]
     },
     {
@@ -84,10 +108,15 @@
       "role": "Full Stack Developer",
       "period": "February 2020 – June 2020",
       "location": "Jalan Industri Mas 14, Taman Mas, 47100 Puchong, Selangor, Malaysia",
-      "bullets": [
-        "Developed a Twitter Autoposting Web App, creating a custom algorithm for calculating winners, which improved marketing campaign engagement.",
-        "Contributed to the Cinema Seat Booking Project, enhancing booking efficiency through streamlined backend processes.",
-        "Designed a Web Scraper to automate cinema movie listings updates, increasing data accuracy and availability."
+      "bulletGroups": [
+        {
+          "title": "Projects",
+          "bullets": [
+            "Developed a Twitter Autoposting Web App, creating a custom algorithm for calculating winners, which improved marketing campaign engagement.",
+            "Contributed to the Cinema Seat Booking Project, enhancing booking efficiency through streamlined backend processes.",
+            "Designed a Web Scraper to automate cinema movie listings updates, increasing data accuracy and availability."
+          ]
+        }
       ]
     },
     {
@@ -95,10 +124,15 @@
       "role": "Administrative Aide I",
       "period": "September 2018 – February 2020",
       "location": "Segabe, Piñan, Zamboanga del Norte, Philippines",
-      "bullets": [
-        "Provided comprehensive administrative support, ensuring accurate document preparation and effective communication across departments.",
-        "Coordinated schedules and correspondence between offices and field personnel, enhancing overall operational efficiency.",
-        "Maintained project logs and records, contributing to improved data accuracy and compliance with departmental requirements."
+      "bulletGroups": [
+        {
+          "title": "Responsibilities",
+          "bullets": [
+            "Provided comprehensive administrative support, ensuring accurate document preparation and effective communication across departments.",
+            "Coordinated schedules and correspondence between offices and field personnel, enhancing overall operational efficiency.",
+            "Maintained project logs and records, contributing to improved data accuracy and compliance with departmental requirements."
+          ]
+        }
       ]
     }
   ],
@@ -107,10 +141,27 @@
       "school": "Mindanao State University",
       "degree": "Bachelor of Science in Information Technology",
       "period": "2014 – 2018",
-      "location": "Naawan, Misamis Oriental, Philippines"
+      "location": "Naawan, Misamis Oriental, Philippines",
+      "bulletGroups": [
+        {
+          "title": "Relevant Coursework",
+          "bullets": [
+            "Web Development",
+            "Database Management",
+            "Software Engineering"
+          ]
+        }
+      ]
     }
   ],
   "template": "modern",
+  "interests": [
+    "Open Source Contributing",
+    "Tech Blogging",
+    "Chess",
+    "Hiking",
+    "Photography"
+  ],
   "skills": [
     {
       "title": "Frontend",
@@ -152,125 +203,259 @@
   ],
   "configs": {
     "cv": {
-      "sectionOrder": [
-        "personalInfo",
-        "contact",
-        "summary",
-        "workExperience",
-        "education",
-        "skills"
-      ],
-      "sectionHidden": {
-        "personalInfo": false,
-        "contact": false,
-        "summary": false,
-        "workExperience": false,
-        "education": false,
-        "skills": false
+      "section": {
+        "order": [
+          "personalInfo",
+          "contact",
+          "summary",
+          "workExperience",
+          "education",
+          "skills",
+          "interests"
+        ],
+        "hidden": []
       },
-      "fontSizes": {
-        "title": 30,
-        "subtitle": 15,
-        "sectionHeader": 15,
-        "entryText": 15,
-        "listItem": 15,
-        "bullet": 9
+      "font": {
+        "family": "garamond",
+        "sizes": {
+          "title": 30,
+          "subtitle": 15,
+          "sectionHeader": 15,
+          "entryText": 15,
+          "listItem": 15,
+          "bullet": 12
+        }
       },
-      "fontFamily": "garamond",
-      "contactOrder": [
-        "rj-email",
-        "rj-loc",
-        "rj-phone",
-        "rj-web",
-        "rj-gh",
-        "rj-li"
-      ],
-      "manualBreaks": [
-        null,
-        1828.0327423095703
-      ],
-      "showInspectAreas": false,
-      "photoSize": 138,
-      "photoBorderRadius": 14,
-      "marginTop": 0,
-      "marginBottom": 0,
-      "paddingTop": 0,
-      "paddingBottom": 0,
-      "contactPaddingTop": 10,
-      "contactPaddingBottom": 10,
-      "contactMarginTop": 10,
-      "contactMarginBottom": 10,
-      "contactColumns": 4,
-      "contactAlign": "center",
-      "pageBg": "#ffffff",
-      "pageFg": "#2d2d2d",
-      "contactBg": "#1a6b3c",
-      "contactFg": "#ffffff",
-      "titleColor": "#1a6b3c",
-      "subtitleColor": "#2a8a50",
-      "sectionHeaderColor": "#1a6b3c"
+      "show": {
+        "inspectAreas": false
+      },
+      "contact": {
+        "order": [
+          "rj-email",
+          "rj-loc",
+          "rj-phone",
+          "rj-web",
+          "rj-gh",
+          "rj-li"
+        ],
+        "padding": {
+          "top": 5,
+          "bottom": 5
+        },
+        "columns": 4,
+        "align": "start",
+        "gap": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      "photo": {
+        "size": 138,
+        "border": {
+          "radius": 14,
+          "color": "#000000",
+          "stroke": 0
+        }
+      },
+      "work": {
+        "columns": 2,
+        "fieldOrder": [
+          "company",
+          "role",
+          "date",
+          "address"
+        ],
+        "column": {
+          "left": [
+            "role",
+            "company"
+          ],
+          "right": [
+            "date",
+            "address"
+          ]
+        }
+      },
+      "edu": {
+        "columns": 2,
+        "fieldOrder": [
+          "school",
+          "degree",
+          "period",
+          "location"
+        ],
+        "column": {
+          "left": [
+            "degree",
+            "school"
+          ],
+          "right": [
+            "location",
+            "period"
+          ]
+        }
+      },
+      "layout": {
+        "sectionSpacerHeight": 8
+      },
+      "colors": {
+        "page": {
+          "bg": "#ffffff",
+          "fg": "#2d2d2d"
+        },
+        "contact": {
+          "bg": "#1a6b3c",
+          "fg": "#ffffff"
+        },
+        "title": "#1a6b3c",
+        "subtitle": "#2a8a50",
+        "sectionHeader": "#1a6b3c"
+      },
+      "header": {
+        "padding": {
+          "top": 0,
+          "bottom": 0
+        },
+        "pattern": {
+          "type": "none",
+          "opacity": 15
+        }
+      }
     },
     "modern": {
-      "sectionOrder": [
-        "personalInfo",
-        "contact",
-        "summary",
-        "workExperience",
-        "education",
-        "skills"
-      ],
-      "sectionHidden": {
-        "personalInfo": false,
-        "contact": false,
-        "summary": false,
-        "workExperience": false,
-        "education": false,
-        "skills": false
+      "section": {
+        "order": [
+          "personalInfo",
+          "contact",
+          "summary",
+          "workExperience",
+          "education",
+          "skills",
+          "interests"
+        ],
+        "hidden": []
       },
-      "fontSizes": {
-        "title": 30,
-        "subtitle": 15,
-        "sectionHeader": 15,
-        "entryText": 15,
-        "listItem": 15,
-        "bullet": 9
+      "font": {
+        "family": "rajdhani",
+        "sizes": {
+          "title": 30,
+          "subtitle": 15,
+          "sectionHeader": 15,
+          "entryText": 15,
+          "listItem": 15,
+          "bullet": 14
+        }
       },
-      "fontFamily": "rajdhani",
-      "contactOrder": [
-        "rj-web",
-        "rj-gh",
-        "rj-email",
-        "rj-phone",
-        "rj-loc",
-        "rj-li"
-      ],
       "manualBreaks": [
-        1015.008585796206,
-        1645.5153358459472
+        998.3419140432763,
+        1873.00659910187
       ],
-      "showInspectAreas": false,
-      "photoSize": 138,
-      "photoBorderRadius": 14,
-      "marginTop": 0,
-      "marginBottom": 0,
-      "paddingTop": 0,
-      "paddingBottom": 0,
-      "contactPaddingTop": 10,
-      "contactPaddingBottom": 10,
-      "contactMarginTop": 10,
-      "contactMarginBottom": 10,
-      "contactColumns": 4,
-      "contactAlign": "left",
-      "pageBg": "#ffffff",
-      "pageFg": "#2d2d2d",
-      "contactBg": "#1a6b3c",
-      "contactFg": "#ffffff",
-      "titleColor": "#1a6b3c",
-      "subtitleColor": "#2a8a50",
-      "sectionHeaderColor": "#1a6b3c",
-      "entryTextColor": "#1a1a1a",
-      "listItemColor": "#555555",
-      "bulletColor": "#1a6b3c"
+      "show": {
+        "inspectAreas": false
+      },
+      "contact": {
+        "order": [
+          "rj-email",
+          "rj-loc",
+          "rj-phone",
+          "rj-web",
+          "rj-gh",
+          "rj-li"
+        ],
+        "padding": {
+          "top": 5,
+          "bottom": 5
+        },
+        "columns": 4,
+        "align": "start",
+        "gap": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      "photo": {
+        "size": 138,
+        "border": {
+          "radius": 14,
+          "color": "#000000",
+          "stroke": 1
+        }
+      },
+      "work": {
+        "columns": 2,
+        "fieldOrder": [
+          "company",
+          "role",
+          "date",
+          "address"
+        ],
+        "column": {
+          "left": [
+            "role",
+            "company"
+          ],
+          "right": [
+            "date",
+            "address"
+          ]
+        }
+      },
+      "edu": {
+        "columns": 2,
+        "fieldOrder": [
+          "school",
+          "degree",
+          "period",
+          "location"
+        ],
+        "column": {
+          "left": [
+            "degree",
+            "school"
+          ],
+          "right": [
+            "location",
+            "period"
+          ]
+        }
+      },
+      "layout": {
+        "sectionSpacerHeight": 11
+      },
+      "colors": {
+        "page": {
+          "bg": "#ffffff",
+          "fg": "#2d2d2d"
+        },
+        "contact": {
+          "bg": "#1a6b3c",
+          "fg": "#ffffff"
+        },
+        "title": "#1a6b3c",
+        "subtitle": "#2a8a50",
+        "sectionHeader": "#1a6b3c",
+        "entryText": "#1a1a1a",
+        "listItem": "#555555",
+        "bullet": "#1a6b3c"
+      },
+      "header": {
+        "padding": {
+          "top": 0,
+          "bottom": 0
+        },
+        "pattern": {
+          "type": "none",
+          "opacity": 15
+        }
+      },
+      "skills": {
+        "layout": "column",
+        "style": "badge"
+      },
+      "interests": {
+        "layout": "row",
+        "style": "pill"
+      }
     }
   }
 }
