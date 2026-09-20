@@ -1,0 +1,362 @@
+{
+  "name": "Alex Morgan",
+  "title": "Senior Full Stack Engineer",
+  "photo": "https://avatars.githubusercontent.com/u/60874051?v=4",
+  "contacts": [
+    {
+      "id": "seed-email",
+      "text": "alex.morgan@inbox.dev",
+      "type": "email"
+    },
+    {
+      "id": "seed-loc",
+      "text": "Austin, Texas, United States",
+      "type": "location"
+    },
+    {
+      "id": "seed-phone",
+      "text": "+1 512 555 0142",
+      "type": "phone"
+    },
+    {
+      "id": "seed-web",
+      "text": "alexmorgan.dev",
+      "type": "website"
+    },
+    {
+      "id": "seed-gh",
+      "text": "github.com/alexmorgan",
+      "type": "github"
+    },
+    {
+      "id": "seed-li",
+      "text": "linkedin.com/in/alexmorgan",
+      "type": "linkedin"
+    }
+  ],
+  "summary": "Senior Full Stack Engineer with 9+ years of experience designing scalable web applications using React, TypeScript, and Node.js. Passionate about clean architecture, developer tooling, and mentoring engineers to deliver dependable, user-centered products at speed.",
+  "workExperience": [
+    {
+      "company": "Nimbus Labs",
+      "role": "Senior Full Stack Engineer",
+      "period": "Mar 2022 – Present",
+      "location": "Austin, TX (Hybrid)",
+      "bulletGroups": [
+        {
+          "title": "Highlights",
+          "bullets": [
+            "Led migration of a legacy monolith to a microservices architecture, cutting deploy times by 60%.",
+            "Mentored 5 junior engineers, two of whom were promoted within a year."
+          ]
+        },
+        {
+          "title": "Responsibilities",
+          "bullets": [
+            "Design and build REST and GraphQL APIs powering a multi-tenant SaaS platform.",
+            "Balance observability, performance budgets, and accessibility in every release."
+          ]
+        }
+      ]
+    },
+    {
+      "company": "Brightpath Software",
+      "role": "Full Stack Developer",
+      "period": "Jun 2018 – Feb 2022",
+      "location": "Dallas, TX",
+      "bulletGroups": [
+        {
+          "title": "Highlights",
+          "bullets": [
+            "Automated CI/CD pipelines, increasing release frequency from monthly to weekly.",
+            "Cut infrastructure spend 20% by right-sizing Kubernetes resources."
+          ]
+        },
+        {
+          "title": "Responsibilities",
+          "bullets": [
+            "Built features with React and Node.js, from schema design to deployment.",
+            "Maintained PostgreSQL databases and wrote tools to support internal ops."
+          ]
+        }
+      ]
+    },
+    {
+      "company": "Foundry Digital",
+      "role": "Web Developer",
+      "period": "Jul 2016 – May 2018",
+      "location": "Houston, TX",
+      "bulletGroups": [
+        {
+          "title": "Highlights",
+          "bullets": [
+            "Delivered 30+ client websites with a repeatable component library.",
+            "Improved site performance scores from 60 to 95+ on Lighthouse across clients."
+          ]
+        },
+        {
+          "title": "Responsibilities",
+          "bullets": [
+            "Developed responsive frontends and lightweight CMS integrations.",
+            "Provided post-launch support, monitoring uptime and fixing regressions quickly."
+          ]
+        }
+      ]
+    }
+  ],
+  "education": [
+    {
+      "school": "University of Texas at Austin",
+      "degree": "B.S. in Computer Science",
+      "period": "2012 – 2016",
+      "location": "Austin, TX",
+      "bulletGroups": [
+        {
+          "title": "Relevant Coursework",
+          "bullets": [
+            "Data Structures & Algorithms",
+            "Distributed Systems"
+          ]
+        }
+      ]
+    }
+  ],
+  "template": "modern",
+  "interests": [
+    "Distributed Systems",
+    "Open Source",
+    "Trail Running",
+    "Coffee Brewing",
+    "Board Games"
+  ],
+  "skills": [
+    {
+      "title": "Frontend",
+      "set": [
+        "React",
+        "TypeScript",
+        "Next.js",
+        "Tailwind CSS",
+        "Vue"
+      ]
+    },
+    {
+      "title": "Backend",
+      "set": [
+        "Node.js",
+        "GraphQL",
+        "REST",
+        "PostgreSQL",
+        "Redis"
+      ]
+    },
+    {
+      "title": "DevOps & Cloud",
+      "set": [
+        "Docker",
+        "Kubernetes",
+        "AWS",
+        "Terraform",
+        "CI/CD"
+      ]
+    },
+    {
+      "title": "Tools & Practices",
+      "set": [
+        "Git",
+        "Testing",
+        "Agile",
+        "System Design",
+        "Mentoring"
+      ]
+    }
+  ],
+  "achievements": [
+    {
+      "title": "AWS Certified Solutions Architect",
+      "organization": "Amazon Web Services",
+      "date": "2024",
+      "bullets": [
+        "Architected and deployed cloud solutions on AWS at scale."
+      ]
+    },
+    {
+      "title": "Speaker, ReactConf",
+      "organization": "ReactConf",
+      "date": "2023",
+      "bullets": [
+        "Gave a talk on scaling design systems across teams."
+      ]
+    }
+  ],
+  "events": [
+    {
+      "title": "Cloud Native Summit",
+      "date": "Aug 2024",
+      "bullets": [
+        "Workshop: observability in distributed systems."
+      ]
+    },
+    {
+      "title": "JSConf US",
+      "date": "Jun 2023",
+      "bullets": [
+        "Attended sessions on performance and DX."
+      ]
+    }
+  ],
+  "configs": {
+    "modern": {
+      "pageBreaks": [
+        {
+          "start": 0,
+          "end": 966.0222023010253,
+          "lastLine": "React",
+          "nextFirstLine": "Backend"
+        },
+        {
+          "start": 975.0222290039062,
+          "end": 1542.438916015625,
+          "lastLine": "Attended sessions on performance and DX.",
+          "nextFirstLine": ""
+        }
+      ],
+      "section": {
+        "order": [
+          "personalInfo",
+          "contact",
+          "summary",
+          "workExperience",
+          "education",
+          "skills",
+          "interests",
+          "achievements",
+          "events"
+        ],
+        "hidden": []
+      },
+      "font": {
+        "family": "rajdhani",
+        "sizes": {
+          "title": 30,
+          "subtitle": 15,
+          "sectionHeader": 15,
+          "entryText": 15,
+          "listItem": 15,
+          "bullet": 14
+        }
+      },
+      "manualBreaks": [
+        1036.11968503937
+      ],
+      "show": {
+        "inspectAreas": false
+      },
+      "contact": {
+        "order": [
+          "seed-email",
+          "seed-loc",
+          "seed-phone",
+          "seed-web",
+          "seed-gh",
+          "seed-li"
+        ],
+        "padding": {
+          "top": 8,
+          "bottom": 8
+        },
+        "columns": 4,
+        "align": "start",
+        "gap": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      "photo": {
+        "size": 138,
+        "border": {
+          "radius": 14,
+          "color": "#000000",
+          "stroke": 0
+        }
+      },
+      "work": {
+        "columns": 2,
+        "fieldOrder": [
+          "company",
+          "role",
+          "date",
+          "address"
+        ],
+        "column": {
+          "left": [
+            "role",
+            "company"
+          ],
+          "right": [
+            "date",
+            "address"
+          ]
+        }
+      },
+      "edu": {
+        "columns": 2,
+        "fieldOrder": [
+          "school",
+          "degree",
+          "period",
+          "location"
+        ],
+        "column": {
+          "left": [
+            "degree",
+            "school"
+          ],
+          "right": [
+            "location",
+            "period"
+          ]
+        }
+      },
+      "layout": {
+        "sectionSpacerHeight": 8
+      },
+      "colors": {
+        "page": {
+          "bg": "#ffffff",
+          "fg": "#2d2d2d"
+        },
+        "contact": {
+          "bg": "#1a6b3c",
+          "fg": "#ffffff"
+        },
+        "title": "#1a6b3c",
+        "subtitle": "#2a8a50",
+        "sectionHeader": "#1a6b3c",
+        "entryText": "#1a1a1a",
+        "listItem": "#555555",
+        "bullet": "#1a6b3c"
+      },
+      "header": {
+        "padding": {
+          "top": 0,
+          "bottom": 0
+        },
+        "pattern": {
+          "type": "none",
+          "opacity": 15
+        }
+      },
+      "skills": {
+        "layout": "column",
+        "style": "badge"
+      },
+      "interests": {
+        "style": "default"
+      },
+      "page": {
+        "infoAlign": "right",
+        "infoMode": "multi"
+      }
+    }
+  }
+}
