@@ -191,6 +191,7 @@
   "events": [
     {
       "title": "Cloud Native Summit",
+      "venue": "Convention Center, San Francisco",
       "date": "Aug 2024",
       "bullets": [
         "Workshop: observability in distributed systems."
@@ -198,6 +199,7 @@
     },
     {
       "title": "JSConf US",
+      "venue": "Miami Beach Convention Center",
       "date": "Jun 2023",
       "bullets": [
         "Attended sessions on performance and DX."
@@ -206,20 +208,6 @@
   ],
   "configs": {
     "modern": {
-      "pageBreaks": [
-        {
-          "start": 0,
-          "end": 966.0222023010253,
-          "lastLine": "React",
-          "nextFirstLine": "Backend"
-        },
-        {
-          "start": 975.0222290039062,
-          "end": 1542.438916015625,
-          "lastLine": "Attended sessions on performance and DX.",
-          "nextFirstLine": ""
-        }
-      ],
       "section": {
         "order": [
           "personalInfo",
@@ -246,7 +234,8 @@
         }
       },
       "manualBreaks": [
-        1036.11968503937
+        1036.11968503937,
+        1617.2341640472412
       ],
       "show": {
         "inspectAreas": false
@@ -272,9 +261,9 @@
         }
       },
       "photo": {
-        "size": 138,
+        "size": 142,
         "border": {
-          "radius": 14,
+          "radius": 50,
           "color": "#000000",
           "stroke": 0
         }
@@ -317,24 +306,58 @@
           ]
         }
       },
+      "achievements": {
+        "columns": 2,
+        "fieldOrder": [
+          "title",
+          "organization",
+          "date"
+        ],
+        "column": {
+          "left": [
+            "title",
+            "organization"
+          ],
+          "right": [
+            "date"
+          ]
+        }
+      },
+      "events": {
+        "columns": 2,
+        "fieldOrder": [
+          "title",
+          "venue",
+          "date"
+        ],
+        "column": {
+          "left": [
+            "title",
+            "venue"
+          ],
+          "right": [
+            "date"
+          ]
+        }
+      },
       "layout": {
         "sectionSpacerHeight": 8
       },
       "colors": {
         "page": {
           "bg": "#ffffff",
-          "fg": "#2d2d2d"
+          "fg": "#99052a"
         },
         "contact": {
-          "bg": "#1a6b3c",
+          "bg": "#99052a",
           "fg": "#ffffff"
         },
-        "title": "#1a6b3c",
-        "subtitle": "#2a8a50",
-        "sectionHeader": "#1a6b3c",
+        "title": "#99052a",
+        "subtitle": "#99052a",
+        "sectionHeader": "#99052a",
         "entryText": "#1a1a1a",
         "listItem": "#555555",
-        "bullet": "#1a6b3c"
+        "bullet": "#99052a"
       },
       "header": {
         "padding": {
@@ -347,11 +370,11 @@
         }
       },
       "skills": {
-        "layout": "column",
-        "style": "badge"
+        "layout": "row",
+        "style": "default"
       },
       "interests": {
-        "style": "default"
+        "style": "badge"
       },
       "page": {
         "infoAlign": "right",
