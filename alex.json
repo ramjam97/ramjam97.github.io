@@ -1,5 +1,5 @@
 {
-  "name": "Alex Morgan",
+  "name": "Allen Morgan",
   "title": "Senior Full Stack Engineer",
   "photo": "https://avatars.githubusercontent.com/u/60874051?v=4",
   "contacts": [
@@ -208,6 +208,7 @@
   ],
   "configs": {
     "modern": {
+      "theme": "dark",
       "section": {
         "order": [
           "personalInfo",
@@ -235,7 +236,7 @@
       },
       "manualBreaks": [
         1036.11968503937,
-        1617.2341640472412
+        1633.8833740234375
       ],
       "show": {
         "inspectAreas": false
@@ -261,9 +262,9 @@
         }
       },
       "photo": {
-        "size": 142,
+        "size": 138,
         "border": {
-          "radius": 50,
+          "radius": 14,
           "color": "#000000",
           "stroke": 0
         }
@@ -307,7 +308,7 @@
         }
       },
       "achievements": {
-        "columns": 2,
+        "columns": 1,
         "fieldOrder": [
           "title",
           "organization",
@@ -346,18 +347,18 @@
       "colors": {
         "page": {
           "bg": "#ffffff",
-          "fg": "#99052a"
+          "fg": "#2d2d2d"
         },
         "contact": {
-          "bg": "#99052a",
+          "bg": "#1a6b3c",
           "fg": "#ffffff"
         },
-        "title": "#99052a",
-        "subtitle": "#99052a",
-        "sectionHeader": "#99052a",
+        "title": "#1a6b3c",
+        "subtitle": "#2a8a50",
+        "sectionHeader": "#1a6b3c",
         "entryText": "#1a1a1a",
         "listItem": "#555555",
-        "bullet": "#99052a"
+        "bullet": "#1a6b3c"
       },
       "header": {
         "padding": {
@@ -370,11 +371,11 @@
         }
       },
       "skills": {
-        "layout": "row",
-        "style": "default"
+        "layout": "column",
+        "style": "badge"
       },
       "interests": {
-        "style": "badge"
+        "style": "default"
       },
       "page": {
         "infoAlign": "right",
