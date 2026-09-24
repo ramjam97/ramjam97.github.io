@@ -30,7 +30,7 @@
     {
       "id": "rj-gh",
       "icon": "",
-      "text": "github.com/ramjam9",
+      "text": "github.com/ramjam97",
       "type": "github"
     },
     {
@@ -200,8 +200,8 @@
         }
       ],
       "manualBreaks": [
-        1025.008570537417,
-        1570.2
+        1036.1,
+        2061.1
       ],
       "section": {
         "order": [
@@ -213,19 +213,20 @@
           "skills",
           "interests",
           "achievements",
-          "events"
+          "events",
+          "certifications"
         ],
         "hidden": []
       },
       "font": {
         "family": "rajdhani",
         "sizes": {
-          "title": 35,
+          "title": 30,
           "subtitle": 15,
           "sectionHeader": 15,
           "entryText": 15,
           "listItem": 15,
-          "bullet": 11
+          "bullet": 12
         }
       },
       "show": {
@@ -242,21 +243,21 @@
       },
       "contact": {
         "order": [
+          "rj-li",
           "rj-email",
-          "rj-loc",
-          "rj-phone",
           "rj-web",
           "rj-gh",
-          "rj-li"
+          "rj-loc",
+          "rj-phone"
         ],
         "padding": {
-          "top": 10,
-          "bottom": 10
+          "top": 8,
+          "bottom": 8
         },
         "columns": 4,
         "align": "start",
         "gap": {
-          "x": 0,
+          "x": 26,
           "y": 0
         }
       },
@@ -333,7 +334,7 @@
         }
       },
       "layout": {
-        "sectionSpacerHeight": 8
+        "sectionSpacerHeight": 6
       },
       "colors": {
         "page": {
@@ -371,6 +372,24 @@
       "page": {
         "infoAlign": "right",
         "infoMode": "multi"
+      },
+      "certifications": {
+        "columns": 1,
+        "fieldOrder": [
+          "title",
+          "issuer",
+          "date"
+        ],
+        "column": {
+          "left": [
+            "title",
+            "issuer"
+          ],
+          "right": [
+            "date"
+          ]
+        },
+        "merge": "issuer+date"
       }
     },
     "modern": {
@@ -390,7 +409,8 @@
       ],
       "manualBreaks": [
         1036.1,
-        1921.2
+        2066.6,
+        2209.3
       ],
       "section": {
         "order": [
@@ -400,9 +420,10 @@
           "workExperience",
           "education",
           "skills",
-          "interests",
           "achievements",
-          "events"
+          "events",
+          "certifications",
+          "interests"
         ],
         "hidden": [
           "achievements",
@@ -427,19 +448,19 @@
       "photo": {
         "size": 133,
         "border": {
-          "radius": 14,
+          "radius": 23,
           "color": "#dff1e7",
-          "stroke": 1
+          "stroke": 2
         }
       },
       "contact": {
         "order": [
           "rj-li",
           "rj-email",
-          "rj-loc",
-          "rj-phone",
+          "rj-web",
           "rj-gh",
-          "rj-web"
+          "rj-loc",
+          "rj-phone"
         ],
         "padding": {
           "top": 10,
@@ -448,8 +469,8 @@
         "columns": 4,
         "align": "start",
         "gap": {
-          "x": 0,
-          "y": 0
+          "x": 39,
+          "y": 3
         }
       },
       "work": {
@@ -539,8 +560,8 @@
         "title": "#1a6b3c",
         "subtitle": "#2a8a50",
         "sectionHeader": "#1a6b3c",
-        "entryText": "#1a1a1a",
-        "listItem": "#555555",
+        "entryText": "#2d2d2d",
+        "listItem": "#2d2d2d",
         "bullet": "#1a6b3c"
       },
       "header": {
@@ -563,6 +584,24 @@
       "page": {
         "infoAlign": "center",
         "infoMode": "multi"
+      },
+      "certifications": {
+        "columns": 1,
+        "fieldOrder": [
+          "title",
+          "date",
+          "issuer"
+        ],
+        "column": {
+          "left": [
+            "title"
+          ],
+          "right": [
+            "issuer",
+            "date"
+          ]
+        },
+        "merge": "issuer+date"
       }
     }
   },
@@ -572,5 +611,73 @@
     "Tennis",
     "Manhua/Manhwa"
   ],
-  "achievements": []
+  "achievements": [],
+  "certifications": [
+    {
+      "title": "Advanced Laravel",
+      "issuer": "LinkedIn",
+      "date": "July 2026",
+      "bullets": []
+    },
+    {
+      "title": "Modules, Packages & Files in Python",
+      "issuer": "UniAthena",
+      "date": "December 2025",
+      "bullets": []
+    },
+    {
+      "title": "Basics of SQL: Stored Procedures",
+      "issuer": "UniAthena",
+      "date": "December 2025",
+      "bullets": []
+    },
+    {
+      "title": "Fundamentals of Search Engine Optimization Strategies",
+      "issuer": "UniAthena",
+      "date": "December 2025",
+      "bullets": []
+    },
+    {
+      "title": "Microsoft Azure Essentials by Microsoft Press",
+      "issuer": "LinkedIn",
+      "date": "June 2026",
+      "bullets": []
+    },
+    {
+      "title": "DevOps Foundations: Continuous Delivery/Continuous Integration",
+      "issuer": "LinkedIn",
+      "date": "June 2026",
+      "bullets": []
+    },
+    {
+      "title": "JavaScript Essential Training",
+      "issuer": "LinkedIn",
+      "date": "June 2026",
+      "bullets": []
+    },
+    {
+      "title": "AI-Powered Software Development: Coding, Testing, and System Design",
+      "issuer": "LinkedIn",
+      "date": "June 2026",
+      "bullets": []
+    },
+    {
+      "title": "Sharepoint Online Essential Training: Beyond the Basics",
+      "issuer": "LinkedIn",
+      "date": "June 2026",
+      "bullets": []
+    },
+    {
+      "title": "React Essential Training",
+      "issuer": "LinkedIn",
+      "date": "June 2026",
+      "bullets": []
+    },
+    {
+      "title": "SharePoint Framework Essential Training",
+      "issuer": "LinkedIn",
+      "date": "July 2026",
+      "bullets": []
+    }
+  ]
 }
