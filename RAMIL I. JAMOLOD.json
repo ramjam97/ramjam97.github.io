@@ -622,9 +622,9 @@
       },
       "editor": {
         "background": {
-          "color": "#f1f5f9",
+          "color": "#0080ff",
           "pattern": {
-            "type": "pyramid",
+            "type": "doodle",
             "opacity": 60,
             "scale": 100
           }
@@ -634,7 +634,8 @@
         "bg": "#2563eb",
         "fg": "#ffffff",
         "shape": "circle"
-      }
+      },
+      "theme": "dark"
     }
   },
   "interests": [
