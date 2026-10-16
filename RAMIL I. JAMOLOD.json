@@ -185,24 +185,6 @@
   "template": "modern",
   "configs": {
     "cv": {
-      "pageBreaks": [
-        {
-          "start": 0,
-          "end": 952.4875,
-          "lastLine": "Designed a Web Scraper to automate cinema movie listings updates, increasing data accuracy and availability.",
-          "nextFirstLine": "Department of Public Works and Highways"
-        },
-        {
-          "start": 962.7375,
-          "end": 1300.2375,
-          "lastLine": "DevOps & Tools:",
-          "nextFirstLine": ""
-        }
-      ],
-      "manualBreaks": [
-        1036.1,
-        2061.1
-      ],
       "section": {
         "order": [
           "personalInfo",
@@ -243,21 +225,21 @@
       },
       "contact": {
         "order": [
-          "rj-li",
           "rj-email",
+          "rj-loc",
+          "rj-phone",
           "rj-web",
           "rj-gh",
-          "rj-loc",
-          "rj-phone"
+          "rj-li"
         ],
         "padding": {
-          "top": 8,
-          "bottom": 8
+          "top": 10,
+          "bottom": 10
         },
         "columns": 4,
         "align": "start",
         "gap": {
-          "x": 26,
+          "x": 0,
           "y": 0
         }
       },
@@ -334,7 +316,7 @@
         }
       },
       "layout": {
-        "sectionSpacerHeight": 6
+        "sectionSpacerHeight": 8
       },
       "colors": {
         "page": {
@@ -373,6 +355,26 @@
         "infoAlign": "right",
         "infoMode": "multi"
       },
+      "pagination": {
+        "pageBreaks": [
+          {
+            "start": 0,
+            "end": 952.4875,
+            "lastLine": "Designed a Web Scraper to automate cinema movie listings updates, increasing data accuracy and availability.",
+            "nextFirstLine": "Department of Public Works and Highways"
+          },
+          {
+            "start": 962.7375,
+            "end": 1300.2375,
+            "lastLine": "DevOps & Tools:",
+            "nextFirstLine": ""
+          }
+        ],
+        "manualBreaks": [
+          1000,
+          2034
+        ]
+      },
       "certifications": {
         "columns": 1,
         "fieldOrder": [
@@ -383,35 +385,30 @@
         "column": {
           "left": [
             "title",
-            "issuer"
-          ],
-          "right": [
+            "issuer",
             "date"
-          ]
+          ],
+          "right": []
         },
         "merge": "issuer+date"
+      },
+      "editor": {
+        "background": {
+          "color": "#f1f5f9",
+          "pattern": {
+            "type": "none",
+            "opacity": 60,
+            "scale": 100
+          }
+        }
+      },
+      "fab": {
+        "bg": "#2563eb",
+        "fg": "#ffffff",
+        "shape": "circle"
       }
     },
     "modern": {
-      "pageBreaks": [
-        {
-          "start": 0,
-          "end": 979.01875,
-          "lastLine": "Contributed to the Cinema Seat Booking Project, enhancing booking efficiency through streamlined backend processes.",
-          "nextFirstLine": "Designed a Web Scraper to automate cinema movie listings updates, increasing data accuracy and availability."
-        },
-        {
-          "start": 980.846875,
-          "end": 1497.584375,
-          "lastLine": "Git",
-          "nextFirstLine": ""
-        }
-      ],
-      "manualBreaks": [
-        1036.1,
-        2066.6,
-        2209.3
-      ],
       "section": {
         "order": [
           "personalInfo",
@@ -422,12 +419,12 @@
           "skills",
           "achievements",
           "events",
-          "certifications",
-          "interests"
+          "interests",
+          "certifications"
         ],
         "hidden": [
-          "achievements",
-          "events"
+          "events",
+          "achievements"
         ]
       },
       "font": {
@@ -443,24 +440,24 @@
       },
       "show": {
         "diagnostic": false,
-        "inspectAreas": false
+        "inspectAreas": true
       },
       "photo": {
         "size": 133,
         "border": {
-          "radius": 23,
+          "radius": 14,
           "color": "#dff1e7",
-          "stroke": 2
+          "stroke": 1
         }
       },
       "contact": {
         "order": [
           "rj-li",
           "rj-email",
-          "rj-web",
-          "rj-gh",
           "rj-loc",
-          "rj-phone"
+          "rj-phone",
+          "rj-gh",
+          "rj-web"
         ],
         "padding": {
           "top": 10,
@@ -469,8 +466,8 @@
         "columns": 4,
         "align": "start",
         "gap": {
-          "x": 39,
-          "y": 3
+          "x": 0,
+          "y": 0
         }
       },
       "work": {
@@ -560,8 +557,8 @@
         "title": "#1a6b3c",
         "subtitle": "#2a8a50",
         "sectionHeader": "#1a6b3c",
-        "entryText": "#2d2d2d",
-        "listItem": "#2d2d2d",
+        "entryText": "#1a1a1a",
+        "listItem": "#555555",
         "bullet": "#1a6b3c"
       },
       "header": {
@@ -585,12 +582,32 @@
         "infoAlign": "center",
         "infoMode": "multi"
       },
+      "pagination": {
+        "pageBreaks": [
+          {
+            "start": 0,
+            "end": 979.01875,
+            "lastLine": "Contributed to the Cinema Seat Booking Project, enhancing booking efficiency through streamlined backend processes.",
+            "nextFirstLine": "Designed a Web Scraper to automate cinema movie listings updates, increasing data accuracy and availability."
+          },
+          {
+            "start": 980.846875,
+            "end": 1497.584375,
+            "lastLine": "Git",
+            "nextFirstLine": ""
+          }
+        ],
+        "manualBreaks": [
+          1036,
+          1983
+        ]
+      },
       "certifications": {
         "columns": 1,
         "fieldOrder": [
           "title",
-          "date",
-          "issuer"
+          "issuer",
+          "date"
         ],
         "column": {
           "left": [
@@ -602,14 +619,30 @@
           ]
         },
         "merge": "issuer+date"
+      },
+      "editor": {
+        "background": {
+          "color": "#f1f5f9",
+          "pattern": {
+            "type": "pyramid",
+            "opacity": 60,
+            "scale": 100
+          }
+        }
+      },
+      "fab": {
+        "bg": "#2563eb",
+        "fg": "#ffffff",
+        "shape": "circle"
       }
     }
   },
   "interests": [
     "Coding",
     "Generative AI",
+    "Manhua/Manhwa",
     "Tennis",
-    "Manhua/Manhwa"
+    "Pickleball"
   ],
   "achievements": [],
   "certifications": [
@@ -617,16 +650,15 @@
       "title": "Advanced Laravel",
       "issuer": "LinkedIn",
       "date": "July 2026",
-      "bullets": []
+      "bullets": [],
+      "bold": {
+        "title": true,
+        "issuer": false,
+        "date": false
+      }
     },
     {
       "title": "Modules, Packages & Files in Python",
-      "issuer": "UniAthena",
-      "date": "December 2025",
-      "bullets": []
-    },
-    {
-      "title": "Basics of SQL: Stored Procedures",
       "issuer": "UniAthena",
       "date": "December 2025",
       "bullets": []
@@ -650,12 +682,6 @@
       "bullets": []
     },
     {
-      "title": "JavaScript Essential Training",
-      "issuer": "LinkedIn",
-      "date": "June 2026",
-      "bullets": []
-    },
-    {
       "title": "AI-Powered Software Development: Coding, Testing, and System Design",
       "issuer": "LinkedIn",
       "date": "June 2026",
@@ -663,12 +689,6 @@
     },
     {
       "title": "Sharepoint Online Essential Training: Beyond the Basics",
-      "issuer": "LinkedIn",
-      "date": "June 2026",
-      "bullets": []
-    },
-    {
-      "title": "React Essential Training",
       "issuer": "LinkedIn",
       "date": "June 2026",
       "bullets": []
