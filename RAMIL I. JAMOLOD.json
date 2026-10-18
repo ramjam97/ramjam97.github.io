@@ -454,10 +454,10 @@
         "order": [
           "rj-li",
           "rj-email",
-          "rj-loc",
-          "rj-phone",
+          "rj-web",
           "rj-gh",
-          "rj-web"
+          "rj-loc",
+          "rj-phone"
         ],
         "padding": {
           "top": 10,
@@ -466,7 +466,7 @@
         "columns": 4,
         "align": "start",
         "gap": {
-          "x": 0,
+          "x": 38,
           "y": 0
         }
       },
@@ -599,7 +599,7 @@
         ],
         "manualBreaks": [
           1036,
-          1983
+          1902
         ]
       },
       "certifications": {
