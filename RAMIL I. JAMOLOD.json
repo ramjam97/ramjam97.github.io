@@ -225,12 +225,12 @@
       },
       "contact": {
         "order": [
+          "rj-li",
           "rj-email",
-          "rj-loc",
-          "rj-phone",
           "rj-web",
           "rj-gh",
-          "rj-li"
+          "rj-loc",
+          "rj-phone"
         ],
         "padding": {
           "top": 10,
@@ -239,7 +239,7 @@
         "columns": 4,
         "align": "start",
         "gap": {
-          "x": 0,
+          "x": 28,
           "y": 0
         }
       },
@@ -359,19 +359,19 @@
         "pageBreaks": [
           {
             "start": 0,
-            "end": 952.4875,
-            "lastLine": "Designed a Web Scraper to automate cinema movie listings updates, increasing data accuracy and availability.",
-            "nextFirstLine": "Department of Public Works and Highways"
+            "end": 1000,
+            "lastLine": "Developed a Twitter Autoposting Web App, creating a custom algorithm for calculating winners, which improved marketing campaign engagement.",
+            "nextFirstLine": "Contributed to the Cinema Seat Booking Project, enhancing booking efficiency through streamlined backend processes."
           },
           {
-            "start": 962.7375,
-            "end": 1300.2375,
-            "lastLine": "DevOps & Tools:",
+            "start": 1000,
+            "end": 2034,
+            "lastLine": "LinkedIn • July 2026",
             "nextFirstLine": ""
           }
         ],
         "manualBreaks": [
-          1000,
+          1036,
           2034
         ]
       },
@@ -384,11 +384,12 @@
         ],
         "column": {
           "left": [
-            "title",
+            "title"
+          ],
+          "right": [
             "issuer",
             "date"
-          ],
-          "right": []
+          ]
         },
         "merge": "issuer+date"
       },
@@ -440,7 +441,7 @@
       },
       "show": {
         "diagnostic": false,
-        "inspectAreas": true
+        "inspectAreas": false
       },
       "photo": {
         "size": 133,
@@ -466,7 +467,7 @@
         "columns": 4,
         "align": "start",
         "gap": {
-          "x": 38,
+          "x": 39,
           "y": 0
         }
       },
